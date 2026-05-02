@@ -34,3 +34,36 @@ DITA is widely used in industries such as software, manufacturing, aerospace, an
 
 **Real-world example**: A hardware manufacturer uses DITA to write installation guides for 20 different products. Each product shares common safety warning topics. Because these warnings are written as DITA topics, they are authored once and reused across all 20 guides. When legal updates the warning language, one edit propagates across all guides instantly.
 
+## DITA Topic Types: Concept, Task, and Reference
+
+DITA defines three primary topic types. Each type has a specific purpose and a distinct XML structure.
+
+### Concept
+
+A concept topic answers the question 'What is it?' It provides background information, definitions, and explanations. Concept topics do not contain procedures or step-by-step instructions.
+
+**Example**: A concept topic titled 'What is a Firewall?' explains what a firewall does, why it is used, and how it fits into a network architecture. It does not tell the reader how to configure one.
+
+### Task
+
+A task topic answers the question 'How do I do it?' It contains numbered steps that guide the reader through a procedure. Each step is tagged as a `<cmd>` element in DITA XML.
+
+**Example**: A task topic titled 'How to Configure a Firewall' contains steps like: 
+1. Step 1 — Log in to the admin portal. 
+1. Step 2 — Navigate to Security Settings. 
+1. Step 3 — Click Add Rule. 
+
+The structured steps make it easy for publishing tools to format them consistently.
+
+### Reference
+
+A reference topic answers the question 'What are the details?' It contains structured, lookup-style information such as API parameters, command-line options, or configuration settings. Reference topics are typically formatted as tables or definition lists.
+
+
+**Example**: A reference topic titled 'Firewall Rule Parameters' lists all available parameters, their data types, accepted values, and default settings in a table format.
+
+
+
+
+
+
