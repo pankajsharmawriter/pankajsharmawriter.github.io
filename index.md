@@ -22,7 +22,7 @@ I am also an author of [Girl Who Murdered Arranged Marriage](https://www.amazon.
 
 Connect me on linkedin at [https://www.linkedin.com/in/ps2001/](https://www.linkedin.com/in/ps2001/).
 
-For any query, contact me at **pankajsharmawriter@gmail.com**.
+For any query, contact me at **pankajsharmawriter@gmail.com**. My email.
 
 ## My Documentation Pages
 
