@@ -25,3 +25,12 @@ In technical documentation, XML provides the underlying structure for DITA. Ever
 **Example**: A simple XML snippet for a DITA task step looks like this: `<step><cmd>Click the Install button.</cmd></step>`. The tag `<cmd>` tells the authoring tool and publishing engine that this is a command instruction, not a regular paragraph. This semantic tagging is what makes structured content so powerful.
 XML forms the backbone of DITA. Without understanding XML basics, it is difficult to troubleshoot DITA files or customize publishing output.
 
+## What is DITA
+
+DITA stands for Darwin Information Typing Architecture. It is an XML-based standard developed by IBM and now maintained by OASIS (Organization for the Advancement of Structured Information Standards). DITA defines a set of rules for how technical content should be structured, typed, and reused.
+The key philosophy behind DITA is topic-based authoring — content is written as independent, typed topics rather than as chapters within a book. Each topic covers one subject and can stand on its own.
+DITA is widely used in industries such as software, manufacturing, aerospace, and medical devices where documentation must be accurate, consistent, and publishable across formats like PDF, HTML, and EPUB.
+
+
+**Real-world example**: A hardware manufacturer uses DITA to write installation guides for 20 different products. Each product shares common safety warning topics. Because these warnings are written as DITA topics, they are authored once and reused across all 20 guides. When legal updates the warning language, one edit propagates across all guides instantly.
+
