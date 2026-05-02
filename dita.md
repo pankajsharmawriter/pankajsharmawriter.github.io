@@ -34,7 +34,7 @@ DITA is widely used in industries such as software, manufacturing, aerospace, an
 
 **Real-world example**: A hardware manufacturer uses DITA to write installation guides for 20 different products. Each product shares common safety warning topics. Because these warnings are written as DITA topics, they are authored once and reused across all 20 guides. When legal updates the warning language, one edit propagates across all guides instantly.
 
-## DITA Topic Types: Concept, Task, and Reference
+## DITA Topic types: Concept, Task, and Reference
 
 DITA defines three primary topic types. Each type has a specific purpose and a distinct XML structure.
 
@@ -49,9 +49,9 @@ A concept topic answers the question 'What is it?' It provides background inform
 A task topic answers the question 'How do I do it?' It contains numbered steps that guide the reader through a procedure. Each step is tagged as a `<cmd>` element in DITA XML.
 
 **Example**: A task topic titled 'How to Configure a Firewall' contains steps like: 
-1. Step 1 — Log in to the admin portal. 
-1. Step 2 — Navigate to Security Settings. 
-1. Step 3 — Click Add Rule. 
+1. Log in to the admin portal. 
+1. Navigate to Security Settings. 
+1. Click Add Rule. 
 
 The structured steps make it easy for publishing tools to format them consistently.
 
@@ -61,6 +61,13 @@ A reference topic answers the question 'What are the details?' It contains struc
 
 
 **Example**: A reference topic titled 'Firewall Rule Parameters' lists all available parameters, their data types, accepted values, and default settings in a table format.
+
+## What is a DITA Map
+
+A DITA map is an XML file that assembles individual DITA topics into a coherent publication. It does not contain content itself — it references topics and defines their order and hierarchy. Think of a DITA map as the table of contents for your documentation.
+A DITA map uses <topicref> elements to point to individual topic files. Nested <topicref> elements create a hierarchy of chapters and sections.
+
+**Real-world example**: A DITA map for a software user guide might reference a concept topic on system architecture, three task topics for installation, configuration, and activation, and a reference topic for error codes. The map defines the order in which these topics appear in the final output. The same topics could be referenced in a different map to produce a quick-start guide — without duplicating any content.
 
 
 
