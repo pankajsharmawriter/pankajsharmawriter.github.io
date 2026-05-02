@@ -22,7 +22,7 @@ I am also an author of [Girl Who Murdered Arranged Marriage](https://www.amazon.
 
 Connect me on linkedin at [https://www.linkedin.com/in/ps2001/](https://www.linkedin.com/in/ps2001/).
 
-For any query, contact me at **pankajsharmawriter@gmail.com**. My email.123.
+For any query, contact me at **pankajsharmawriter@gmail.com**. 
 
 ## My Documentation Pages
 
@@ -31,5 +31,5 @@ For any query, contact me at **pankajsharmawriter@gmail.com**. My email.123.
 -  [API documentation for beginners](./api)
 -  [How to create Multilevel List Headings in MS Word](./multilevellist)
 -  [Markdown documentation using VS code and Github (Doc As Code)](./markdown)
--  [Learn Git commands for Technical Writers](./gitlearn)
+-  New topic
   
