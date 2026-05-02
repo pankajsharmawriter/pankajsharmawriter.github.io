@@ -133,9 +133,21 @@ Common DITA output formats include:
 - Microsoft HTML Help (CHM): for Windows desktop application help
 
 Publishing in DITA is handled by the DITA Open Toolkit (DITA-OT), an open-source publishing engine. MadCap Flare also supports DITA import and has its own publishing engine that produces similar output formats.
-Real-world example: A medical device company authors its product documentation in DITA. From the same source, they publish a PDF manual included in the product box, an HTML5 portal on their website for online access, and a localized PDF in five languages for international markets. The structured authoring approach ensures consistency across all outputs and languages.
+
+**Real-world example**: A medical device company authors its product documentation in DITA. From the same source, they publish a PDF manual included in the product box, an HTML5 portal on their website for online access, and a localized PDF in five languages for international markets. The structured authoring approach ensures consistency across all outputs and languages.
 
 The ability to publish once and distribute everywhere is the defining value proposition of structured authoring with DITA.
+
+## Migrate DITA content to MadCap Flare
+
+Many organizations author content in DITA but choose MadCap Flare as their primary authoring and publishing environment. Flare supports importing DITA topics and maps directly, converting them into Flare topics while preserving structure, topic types, and relationships.
+
+During migration, DITA topic types are converted to Flare stylesheets, DITA maps become Flare TOC files, Conrefs become Snippets, and conditional attributes are converted to Flare condition tags.
+
+**Real-world example**: A company standardizes on MadCap Flare after years of authoring in a DITA-based CMS. Using Flare's DITA import wizard, the team imports their entire DITA library. The import preserves heading structure, step numbering in task topics, and table formatting. Writers then apply Flare stylesheets to match corporate branding and begin taking advantage of Flare-specific features like snippets, variables, and responsive HTML5 output.
+
+Understanding both DITA and MadCap Flare makes a technical writer highly versatile — capable of working in either environment and managing migrations between them.
+
 
 
 
