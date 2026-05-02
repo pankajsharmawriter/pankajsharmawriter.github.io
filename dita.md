@@ -121,6 +121,21 @@ When the value changes — for example, when a new product version is released �
 
 **Real-world example**: A documentation set covers version 5.0 of a software product. The product name 'DataSync Pro 5.0' appears in hundreds of topics. The writer stores 'DataSync Pro 5.0' as a variable called ProductNameVersion. When version 6.0 is released, the writer updates the variable value to 'DataSync Pro 6.0' in the Variable Set. All topics across the project now display the updated version number without touching a single topic file.
 
+## DITA outputs
+
+One of the greatest advantages of DITA is its ability to publish the same source content to multiple output formats. This is possible because DITA content is separated from its presentation — the XML defines the structure and meaning, while stylesheets and publishing configurations define the visual output.
+
+Common DITA output formats include:
+- PDF:for print-ready documentation and downloadable guides
+- HTML5: for online help systems and web portals
+- EPUB: for e-books and offline reading on mobile devices
+- WebHelp: for browser-based, searchable help with navigation
+- Microsoft HTML Help (CHM): for Windows desktop application help
+
+Publishing in DITA is handled by the DITA Open Toolkit (DITA-OT), an open-source publishing engine. MadCap Flare also supports DITA import and has its own publishing engine that produces similar output formats.
+Real-world example: A medical device company authors its product documentation in DITA. From the same source, they publish a PDF manual included in the product box, an HTML5 portal on their website for online access, and a localized PDF in five languages for international markets. The structured authoring approach ensures consistency across all outputs and languages.
+
+The ability to publish once and distribute everywhere is the defining value proposition of structured authoring with DITA.
 
 
 
