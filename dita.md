@@ -96,6 +96,21 @@ In DITA, conditions are applied using attributes such as audience, product, and 
 
 Conditional text eliminates the need to maintain separate documents for different audiences or product variants.
 
+## Cross-References
+
+A cross-reference is a link from one topic or section to another topic within the same documentation set. Cross-references help readers navigate between related content and provide additional context without duplicating information.
+In DITA, cross-references are created using the <xref> element, which points to another topic by its file path or unique ID. In MadCap Flare, cross-references are inserted as internal links and can include dynamic text that automatically updates if the target heading changes.
+
+**Real-world example**: In a task topic titled 'How to Back Up Your Data,' the writer adds a cross-reference at the end: 'For information on restoring data, see Restoring a Backup.' This cross-reference links to the relevant task topic. If the target topic is renamed or moved, Flare's cross-reference feature can automatically update the link text and destination.
+Cross-references are essential for non-linear documentation where readers jump between topics based on their needs.
+
+## Hyperlinks
+
+A hyperlink is a clickable link that navigates the reader to an external URL — a website, a knowledge base article, a product page, or an external resource outside the documentation set.
+In DITA, external hyperlinks are created using the <xref> element with an href attribute pointing to a URL and a scope attribute set to 'external'. In MadCap Flare, hyperlinks are inserted via the Insert Hyperlink dialog, where you specify the external URL.
+
+**Real-world example**: A topic on API authentication includes a hyperlink to the company's developer portal: 'For the full list of API endpoints, visit the Developer Portal at https://developer.example.com.' In PDF output, the hyperlink appears as underlined text. In HTML5 output, it is a clickable link that opens in a new browser tab.
+
 
 
 
