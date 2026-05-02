@@ -96,7 +96,7 @@ In DITA, conditions are applied using attributes such as audience, product, and 
 
 Conditional text eliminates the need to maintain separate documents for different audiences or product variants.
 
-## Cross-References
+## Cross-references
 
 A cross-reference is a link from one topic or section to another topic within the same documentation set. Cross-references help readers navigate between related content and provide additional context without duplicating information.
 In DITA, cross-references are created using the <xref> element, which points to another topic by its file path or unique ID. In MadCap Flare, cross-references are inserted as internal links and can include dynamic text that automatically updates if the target heading changes.
@@ -110,6 +110,17 @@ A hyperlink is a clickable link that navigates the reader to an external URL —
 In DITA, external hyperlinks are created using the <xref> element with an href attribute pointing to a URL and a scope attribute set to 'external'. In MadCap Flare, hyperlinks are inserted via the Insert Hyperlink dialog, where you specify the external URL.
 
 **Real-world example**: A topic on API authentication includes a hyperlink to the company's developer portal: 'For the full list of API endpoints, visit the Developer Portal at https://developer.example.com.' In PDF output, the hyperlink appears as underlined text. In HTML5 output, it is a clickable link that opens in a new browser tab.
+
+Unlike cross-references, hyperlinks point outside the documentation set and do not update automatically if the target URL changes. It is good practice to audit hyperlinks periodically in long-lived documentation.
+
+## Variables in MadCap Flare
+
+Variables in MadCap Flare are placeholders for text that changes across outputs, products, or versions. Instead of hardcoding a product name, version number, or company name throughout your content, you define it as a variable and insert the variable wherever it is needed.
+When the value changes — for example, when a new product version is released — you update the variable definition once, and every instance across all topics updates automatically.
+
+
+**Real-world example**: A documentation set covers version 5.0 of a software product. The product name 'DataSync Pro 5.0' appears in hundreds of topics. The writer stores 'DataSync Pro 5.0' as a variable called ProductNameVersion. When version 6.0 is released, the writer updates the variable value to 'DataSync Pro 6.0' in the Variable Set. All topics across the project now display the updated version number without touching a single topic file.
+
 
 
 
