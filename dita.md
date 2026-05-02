@@ -69,6 +69,26 @@ A DITA map uses <topicref> elements to point to individual topic files. Nested <
 
 **Real-world example**: A DITA map for a software user guide might reference a concept topic on system architecture, three task topics for installation, configuration, and activation, and a reference topic for error codes. The map defines the order in which these topics appear in the final output. The same topics could be referenced in a different map to produce a quick-start guide — without duplicating any content.
 
+## Content Reuse with Conref
+
+Conref stands for Content Reference. It is a DITA mechanism that allows you to reuse a specific element from one topic inside another topic. Instead of copying and pasting content, you insert a reference that pulls the content dynamically at publish time.
+Conref is used for warnings, notes, standard phrases, and any content that appears repeatedly across topics. If the source content changes, all references update automatically.
+
+**Real-world example**: A standard safety warning — 'Disconnect the power supply before servicing the unit' — is written once in a shared topic called warnings.dita. Every task topic that requires this warning uses a conref to pull it in. When the legal team updates the warning language, the writer edits it in one place and every topic that references it is automatically updated upon the next publish.
+
+Conref is one of the most powerful reuse features in DITA and significantly reduces maintenance effort in large documentation sets.
+
+## Snippets in MadCap Flare
+
+In MadCap Flare, the equivalent of DITA Conref is called a Snippet. A snippet is a reusable piece of content — a paragraph, a warning, a table, or even a list — saved as a separate .flsnp file and inserted into multiple topics.
+When you update a snippet, the change is reflected everywhere the snippet is used, just like Conref in DITA.
+
+**Real-world example**: A technical writer at a SaaS company maintains a 'System Requirements' snippet listing supported operating systems and browsers. This snippet is inserted into the installation guide, the release notes, and the quick-start guide. When a new browser version is supported, the writer updates the snippet once, and all three documents reflect the change automatically after the next build.
+
+Snippets in MadCap Flare are the primary content reuse mechanism for writers who do not work in DITA XML but still need modular, maintainable documentation.
+
+
+
 
 
 
