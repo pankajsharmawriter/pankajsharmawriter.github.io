@@ -69,7 +69,7 @@ A DITA map uses <topicref> elements to point to individual topic files. Nested <
 
 **Real-world example**: A DITA map for a software user guide might reference a concept topic on system architecture, three task topics for installation, configuration, and activation, and a reference topic for error codes. The map defines the order in which these topics appear in the final output. The same topics could be referenced in a different map to produce a quick-start guide — without duplicating any content.
 
-## Content Reuse with Conref
+## Content reuse with Conref
 
 Conref stands for Content Reference. It is a DITA mechanism that allows you to reuse a specific element from one topic inside another topic. Instead of copying and pasting content, you insert a reference that pulls the content dynamically at publish time.
 Conref is used for warnings, notes, standard phrases, and any content that appears repeatedly across topics. If the source content changes, all references update automatically.
@@ -86,6 +86,16 @@ When you update a snippet, the change is reflected everywhere the snippet is use
 **Real-world example**: A technical writer at a SaaS company maintains a 'System Requirements' snippet listing supported operating systems and browsers. This snippet is inserted into the installation guide, the release notes, and the quick-start guide. When a new browser version is supported, the writer updates the snippet once, and all three documents reflect the change automatically after the next build.
 
 Snippets in MadCap Flare are the primary content reuse mechanism for writers who do not work in DITA XML but still need modular, maintainable documentation.
+
+## Conditional text
+
+Conditional text is a feature in both DITA and MadCap Flare that allows you to tag content for specific audiences, products, or output formats. Tagged content is included or excluded during publishing based on conditions you define.
+In DITA, conditions are applied using attributes such as audience, product, and platform directly on XML elements. In MadCap Flare, conditions are defined as condition tags and applied to content blocks, paragraphs, or even individual words.
+
+**Real-world example**: A software product has two editions — Standard and Enterprise. The user guide shares most content, but certain sections apply only to Enterprise customers. The writer tags those sections with a condition called 'Enterprise'. When publishing the Standard edition guide, the build excludes all Enterprise-tagged content. When publishing the Enterprise edition, all content is included. One source file produces two different outputs.
+
+Conditional text eliminates the need to maintain separate documents for different audiences or product variants.
+
 
 
 
