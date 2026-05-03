@@ -67,5 +67,26 @@ In VS Code, I navigated the file tree on the left panel to locate the article I 
 
 VS Code's built-in Markdown preview (Ctrl+Shift+V) allowed me to see a rendered version of the document while editing, which made it easier to catch formatting errors before committing changes.
 
+## Step 4: committing and pushing changes
+
+After completing edits, the changes needed to be saved to the remote repository. This involves two key operations: committing and pushing.
+
+### Commit changes in GitHub Desktop
+
+A commit records a snapshot of your changes to the local repository. In GitHub Desktop:
+1. Switch to GitHub Desktop. The Changes tab on the left panel shows all modified files.
+1. Review each file. GitHub Desktop displays a diff view showing exactly what was added (green) or removed (red).
+1. Check the box next to each file you want to include in the commit.
+1. Write a clear commit message in the Summary field at the bottom. A good commit message describes what was changed and why, for example: "Updated Azure App Service quickstart — added note on free tier limits".
+1. Optionally, add a longer description in the Description field for complex changes.
+1. Click **Commit** to `<branch-name>`.
+
+### Push Changes to the remote repository
+
+A commit only saves changes locally. To make them available on GitHub for review, you must push them to the remote branch. In GitHub Desktop, click the Push origin button in the top toolbar after committing. This uploads your committed changes to the corresponding branch on GitHub.
+
+> Best practice: commit and push regularly rather than accumulating large batches of changes. Smaller, focused commits are easier for reviewers to evaluate and simpler to revert if an issue is found.
+
+
 
 
