@@ -34,6 +34,13 @@ To clone the repository using the GitHub website:
 1. Confirm or change the local path as needed, then click **Clone**.
 1. GitHub Desktop downloads the repository to your machine and opens it automatically.
 
+### Switching to the assigned branch in GitHub Desktop
 
+After cloning, GitHub Desktop opens the repository on the default branch. Since my manager assigned a specific feature branch, I needed to switch to it before making any edits.
+1. In GitHub Desktop, click the **Current Branch** dropdown at the top of the window.
+1. A list of all available branches appears. Locate the branch name shared by your manager in the email.
+1. Click the branch name to switch to it.
+1. GitHub Desktop updates the working files to reflect the selected branch.
 
+Once the correct branch is active, GitHub Desktop displays the current branch name prominently in the toolbar, confirming that any edits you make will be tracked against that branch and not the main branch.
 
