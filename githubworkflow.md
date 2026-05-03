@@ -44,3 +44,28 @@ After cloning, GitHub Desktop opens the repository on the default branch. Since 
 
 Once the correct branch is active, GitHub Desktop displays the current branch name prominently in the toolbar, confirming that any edits you make will be tracked against that branch and not the main branch.
 
+## Step 3: editing articles in Visual Studio Code
+
+With the branch open in GitHub Desktop, the next step was to edit the documentation files. At Microsoft, most documentation was written in Markdown (.md) and managed within a docs-as-code framework. VS Code was the standard editor for this purpose.
+
+### Opening the repository in VS Code
+
+From GitHub Desktop, opening VS Code is straightforward:
+1. In GitHub Desktop, click **Repository** in the top menu.
+1. Select **Open in Visual Studio Code**.
+1. VS Code opens the entire repository as a workspace.
+
+### Working on documentation files
+
+In VS Code, I navigated the file tree on the left panel to locate the article I needed to edit. Documentation files were typically Markdown files organized in folders by product area or content type. During editing, I focused on several areas:
+- **Accuracy**: verifying technical details against the product specifications or engineering notes provided.
+- **Style compliance**: applying Microsoft Writing Style Guide conventions, including active voice, sentence-style capitalization, and second-person tone.
+- **Formatting**: ensuring proper use of Markdown syntax for headings, code blocks, tables, numbered lists, and notes.
+- **Consistency**: maintaining terminology consistency with related articles in the same product area.
+- **Link validation**: checking that all internal cross-references and external links were active and correctly targeted.
+
+
+VS Code's built-in Markdown preview (Ctrl+Shift+V) allowed me to see a rendered version of the document while editing, which made it easier to catch formatting errors before committing changes.
+
+
+
