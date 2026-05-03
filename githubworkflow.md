@@ -122,4 +122,33 @@ Once the PR is created, the review process begins. At Microsoft, my manager was 
 
 As the author, I was responsible for monitoring the PR for reviewer comments, making any requested revisions in my local branch, and pushing updated commits to the same branch. GitHub automatically updates the PR with any new commits pushed to the feature branch, so there is no need to create a new PR after making revisions.
 
+## Step 7: merging to main and handling conflicts
+
+Once the PR was approved, my manager handled the final merge. This was a deliberate team policy — only the manager merged to main — to ensure that the main branch always contained reviewed, approved content.
+
+### The merge process
+The manager performed the merge using the following steps:
+1. Open the PR on GitHub.
+1. Verify the PR is marked as Approved and all required checks (CI pipelines, linting) have passed.
+1. Click the **Merge pull request button**.
+1. Select the **merge strategy** (typically "Merge commit" or "Squash and merge" depending on team conventions).
+1. Click **Confirm merge**.
+1. Optionally, delete the feature branch after merging to keep the repository clean.
+
+### Handling merge conflicts
+
+Merge conflicts occur when two branches have made changes to the same lines in the same file, and Git cannot automatically determine which version to keep. This was handled exclusively by my manager at Microsoft, but it is valuable for technical writers to understand what happens during conflict resolution.
+
+When a conflict exists, GitHub marks the PR with a **This branch has conflicts that must be resolved** message. My manager resolved conflicts directly through the GitHub web interface using the following steps:
+- On the PR page, click the **Resolve conflicts button** that GitHub displays when conflicts are detected.
+- GitHub opens its built-in web editor showing the conflicting file. Conflict sections are highlighted clearly — the content from the current branch appears above a dividing line, and the incoming content appears below it.
+- The manager reviewed both versions and manually edited the file to retain the correct content, removing the conflict markers that GitHub inserted.
+- After resolving all conflicts in the file, the manager clicked **Mark as resolved**.
+- If multiple files had conflicts, the process was repeated for each one.
+- Once all conflicts were resolved, the manager clicked Commit merge to finalize the resolution and complete the merge into main.
+
+While conflict resolution was my manager's responsibility in this workflow, understanding the process helps technical writers write cleaner commit messages, communicate proactively about overlapping edits, and avoid contributing to conflicts in the first place by keeping feature branches short-lived and scoped to a single task.
+
+
+
 
