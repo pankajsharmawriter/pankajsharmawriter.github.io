@@ -149,6 +149,66 @@ When a conflict exists, GitHub marks the PR with a **This branch has conflicts t
 
 While conflict resolution was my manager's responsibility in this workflow, understanding the process helps technical writers write cleaner commit messages, communicate proactively about overlapping edits, and avoid contributing to conflicts in the first place by keeping feature branches short-lived and scoped to a single task.
 
+## Step 8: post-merge notification and output verification
+
+At Microsoft, the documentation workflow did not end at the merge. Once my manager merged the PR into the main branch, an automated publishing pipeline ran in the background. This system detected the merge, built the updated documentation, and deployed it live to Microsoft Learn — Microsoft's official documentation portal. Within a short time after the merge, I received an email notification confirming that the content was live, along with the direct URL to the published article on Microsoft Learn.
+For example, one of the articles I worked on is published at: [https://learn.microsoft.com/en-us/power-platform/guidance/case-studies/abn-amro-enhances-ai](https://learn.microsoft.com/en-us/power-platform/guidance/case-studies/abn-amro-enhances-ai). This is what the email-to-merge workflow ultimately produces — a live, publicly accessible documentation page on Microsoft Learn.
+
+### Why the live URL matters more than the VS code preview
+
+During the editing phase, VS Code offers a built-in Markdown preview that renders the content as you write. While this is useful for catching obvious formatting issues, it does not accurately represent how the content will look on the actual Microsoft Learn portal. The VS Code preview renders standard Markdown, but Microsoft Learn applies its own custom styles, layout templates, component rendering rules, and navigation structures on top of the content. Several scenarios where the VS Code preview falls short include:
+
+- Custom admonition blocks such as Note, Tip, Warning, and Important render as styled callout boxes on Microsoft Learn, but appear as plain blockquotes or text in VS Code preview.
+- Tab groups and interactive content components, which are supported on Microsoft Learn, do not render correctly in a local Markdown preview.
+- Table formatting, especially wide tables with many columns, may appear differently due to the portal's responsive CSS versus VS Code's preview stylesheet.
+- Images and media elements may display at different sizes or aspect ratios depending on the portal's layout versus the local preview window.
+- Cross-references and internal links resolve against the live content tree on Microsoft Learn, which may produce different anchor behaviour than what the local preview shows.
+
+Verify the published output
+
+Once I received the live URL in the post-merge email notification, I opened it in the browser and reviewed the published article thoroughly. This verification step was as important as the writing itself. I checked the following:
+
+- Visual formatting: headings, paragraph spacing, bullet lists, numbered lists, and tables were rendering correctly according to the Microsoft Learn stylesheet.
+- Callout blocks: Note, Warning, Tip, and Important blocks were displaying with the correct icons and background colors.
+- Code samples: any inline code or code blocks were rendering in the correct monospace font with proper syntax highlighting where applicable.
+- Images: all images were loading, correctly sized, and accompanied by accurate alt text.
+- Links: all hyperlinks — both internal cross-references and external links — were active and pointing to the correct destinations.
+- Navigation: the article appeared correctly in the left-side navigation panel of the Microsoft Learn documentation tree.
+- Metadata: the article title, description, and breadcrumb path were displaying accurately 
+
+### Fixing issues found after publishing
+
+If the live output revealed any issues — a misaligned table, a broken callout block, an image not rendering at the expected size, or any other discrepancy — I did not treat the work as complete. Instead, I returned to my local repository in VS Code, made the necessary corrections to the Markdown file, and repeated the entire workflow: commit the fix, push to the branch, create a new PR, get approval, and wait for the automated pipeline to republish the updated content.
+
+> This iterative approach — write, publish, verify, fix, repeat — is what separates a thorough documentation professional from one who considers the job done at the point of merge. The published URL is the final deliverable, and it must meet the same quality standard as the source Markdown file.
+
+
+## Tools used in this workflow
+Here is a quick reference to the tools used at each stage of this workflow:
+
+- GitHub: cloud-based hosting for Git repositories. Manages the remote repository, PR workflow, and code review.
+- GitHub Desktop: a GUI client for Git. Simplifies branch switching, committing, pushing, and repository management without requiring deep command-line expertise.
+- Visual Studio Code (VS Code): a lightweight, extensible code editor. Used for editing Markdown files, with built-in terminal, diff view, and Markdown preview.
+- Email: task handoff medium. The entry point for every documentation task via the manager-assigned branch link.
+
+
+## Conclusion
+
+The GitHub-based documentation workflow described in this article represents the practical, day-to-day reality of working as a technical writer in a modern, docs-as-code environment. From receiving a task via email to seeing your changes merged into the main branch, every step in this workflow has a clear purpose and a defined owner.
+
+For technical writers who are new to version control, this workflow can feel unfamiliar at first. The branching model and the PR review process are all concepts that documentation professionals traditionally did not need to know. However, as documentation increasingly lives alongside code in the same repositories, these skills have become as essential as writing itself.
+
+For experienced technical writers already familiar with GitHub, this article offers a clear framework for onboarding new team members, standardizing contribution workflows across documentation teams, and communicating your process to non-writing stakeholders like engineering managers or DevOps teams.
+
+The workflow covered here — email handoff, branch cloning, editing in VS Code, committing and pushing, PR creation, review, approval, and merge — is not specific to Microsoft. It is a universal pattern that you will encounter across technology companies, open-source projects, and any organization that treats documentation as code. Mastering it does not just make you a better technical writer; it makes you a more credible and collaborative contributor in any software development team.
+You can explore my documentation portfolio at [https://pankajsharmawriter.github.io/](https://pankajsharmawriter.github.io/) to see real-world examples of the documentation artifacts produced through this kind of workflow.
+
+For any query, contact me at **pankajsharmawriter@gmail.com**.
+
+## Reference
+
+-  [About me](./)
+
 
 
 
