@@ -164,7 +164,7 @@ During the editing phase, VS Code offers a built-in Markdown preview that render
 - Images and media elements may display at different sizes or aspect ratios depending on the portal's layout versus the local preview window.
 - Cross-references and internal links resolve against the live content tree on Microsoft Learn, which may produce different anchor behaviour than what the local preview shows.
 
-Verify the published output
+### Verify the published output
 
 Once I received the live URL in the post-merge email notification, I opened it in the browser and reviewed the published article thoroughly. This verification step was as important as the writing itself. I checked the following:
 
