@@ -110,6 +110,16 @@ A Pull Request (PR) is a formal request to merge your branch's changes into the 
 
 You can see a live example of the PR creation interface at: [https://github.com/pankajsharmawriter/pankajsharmawriter.github.io/pulls](https://github.com/pankajsharmawriter/pankajsharmawriter.github.io/pulls)
 
+## Step 6: manager review and PR approval
 
+Once the PR is created, the review process begins. At Microsoft, my manager was the designated reviewer and approver for all documentation PRs. This stage involved several activities:
+
+### Review activities
+- Inline comments: the reviewer adds comments directly on specific lines in the diff view. These could flag factual errors, style issues, unclear phrasing, or missing information.
+- Suggested changes: gitHub allows reviewers to suggest specific edits inline. As the author, you can accept or reject these suggestions with a single click.
+- Requesting changes: if significant revisions are needed, the reviewer selects "Request changes," which prevents the PR from being merged until the comments are addressed.
+- Approval: when the content meets quality standards, the reviewer selects "Approve" on the PR.
+
+As the author, I was responsible for monitoring the PR for reviewer comments, making any requested revisions in my local branch, and pushing updated commits to the same branch. GitHub automatically updates the PR with any new commits pushed to the feature branch, so there is no need to create a new PR after making revisions.
 
 
