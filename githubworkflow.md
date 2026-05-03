@@ -101,7 +101,7 @@ A Pull Request (PR) is a formal request to merge your branch's changes into the 
 1. Review the file diffs shown below the branch selectors to confirm that only your intended changes are included.
 1. Click **Create pull request**.
 1. On the PR creation form, fill in the following fields: 
-   - Title: a concise, descriptive title summarizing the change, e.g., "Add prerequisites section to Azure CLI quickstart". 
+   - Title: a concise, descriptive title summarizing the change, for example, **Add prerequisites section to Azure CLI quickstart**. 
    - Description: provide context for the reviewer — what changed, why it changed, and any specific areas requiring attention. 
    - Reviewers: add your manager or designated reviewer using the Reviewers panel on the right. 
    - Labels: optionally, add labels such as "documentation" or "in review" to categorize the PR. Linked issues: If the work is tied to a task or bug in a project tracker, link it here.
