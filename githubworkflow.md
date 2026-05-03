@@ -174,7 +174,7 @@ Once I received the live URL in the post-merge email notification, I opened it i
 - **Images**: all images were loading, correctly sized, and accompanied by accurate alt text.
 - **Links**: all hyperlinks — both internal cross-references and external links — were active and pointing to the correct destinations.
 - **Navigation**: the article appeared correctly in the left-side navigation panel of the Microsoft Learn documentation tree.
-- **Metadata**: the article title, description, and breadcrumb path were displaying accurately 
+- **Metadata**: the article title, description, and breadcrumb path were displaying accurately. 
 
 ### Fixing issues found after publishing
 
@@ -186,10 +186,10 @@ If the live output revealed any issues — a misaligned table, a broken callout 
 ## Tools used in this workflow
 Here is a quick reference to the tools used at each stage of this workflow:
 
-- GitHub: cloud-based hosting for Git repositories. Manages the remote repository, PR workflow, and code review.
-- GitHub Desktop: a GUI client for Git. Simplifies branch switching, committing, pushing, and repository management without requiring deep command-line expertise.
-- Visual Studio Code (VS Code): a lightweight, extensible code editor. Used for editing Markdown files, with built-in terminal, diff view, and Markdown preview.
-- Email: task handoff medium. The entry point for every documentation task via the manager-assigned branch link.
+- **GitHub**: cloud-based hosting for Git repositories. Manages the remote repository, PR workflow, and code review.
+- **GitHub Desktop**: a GUI client for Git. Simplifies branch switching, committing, pushing, and repository management without requiring deep command-line expertise.
+- **Visual Studio Code (VS Code)**: a lightweight, extensible code editor. Used for editing Markdown files, with built-in terminal, diff view, and Markdown preview.
+- **Email**: task handoff medium. The entry point for every documentation task via the manager-assigned branch link.
 
 
 ## Conclusion
