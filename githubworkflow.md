@@ -17,3 +17,23 @@ Every documentation task at Microsoft began with an email from my manager. This 
 - References to any related tickets or project trackers such as Azure DevOps
   
 This email-based task assignment ensured that all work was traceable, communication was documented, and I always had the exact branch reference before touching any code or content. It also helped avoid confusion in multi-writer teams where several branches might be active simultaneously.
+
+## Step 2: cloning the repository via GitHub
+
+Once I had the branch link from my manager's email, the next step was to clone the repository to my local machine. Cloning creates a local copy of the remote repository so you can work on the files offline. GitHub makes this straightforward through its web interface without needing any command-line knowledge.
+
+### Cloning via the GitHub web interface
+
+To clone the repository using the GitHub website:
+
+1. Open your browser and go to the repository. For reference, my portfolio repository is at: [https://github.com/pankajsharmawriter/pankajsharmawriter.github.io/](https://github.com/pankajsharmawriter/pankajsharmawriter.github.io/)
+1. Click the **green Code button** near the top right of the repository page.
+1. In the dropdown that appears, click **Open with GitHub Desktop**.
+1. Your browser will prompt you to open GitHub Desktop. Click the **confirmation button** to proceed.
+1. GitHub Desktop launches and displays a Clone a Repository dialog with the repository URL and the local path where the files will be saved on your machine.
+1. Confirm or change the local path as needed, then click **Clone**.
+1. GitHub Desktop downloads the repository to your machine and opens it automatically.
+
+
+
+
