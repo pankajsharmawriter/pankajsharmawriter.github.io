@@ -169,7 +169,7 @@ During the editing phase, VS Code offers a built-in Markdown preview that render
 Once I received the live URL in the post-merge email notification, I opened it in the browser and reviewed the published article thoroughly. This verification step was as important as the writing itself. I checked the following:
 
 - **Visual formatting**: headings, paragraph spacing, bullet lists, numbered lists, and tables were rendering correctly according to the Microsoft Learn stylesheet.
-- **Callout blocks**: Note, Warning, Tip, and Important blocks were displaying with the correct icons and background colors.
+- **Callout blocks**: note, warning, tip, and important blocks were displaying with the correct icons and background colors.
 - **Code samples**: any inline code or code blocks were rendering in the correct monospace font with proper syntax highlighting where applicable.
 - **Images**: all images were loading, correctly sized, and accompanied by accurate alt text.
 - **Links**: all hyperlinks — both internal cross-references and external links — were active and pointing to the correct destinations.
