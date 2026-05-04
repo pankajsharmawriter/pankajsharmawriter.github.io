@@ -96,17 +96,18 @@ A Pull Request (PR) is a formal request to merge your branch's changes into the 
 1. Open your browser and navigate to your repository on GitHub: [https://github.com/pankajsharmawriter/pankajsharmawriter.github.io/](https://github.com/pankajsharmawriter/pankajsharmawriter.github.io/)
 1. After pushing your changes, GitHub usually displays a banner at the top of the repository page: "<branch-name> had recent pushes" with a Compare & pull request button. Click it.
 1. If the banner is not visible, click the Pull requests tab in the top navigation bar of the repository, then click the green **New pull request button**.
-    [![Pull Request](images/pullrequest.png)](images/pullrequest.png)
-1. On the Compare changes page, verify the following: Base branch (left): This should be main — the branch you want to merge your changes into. Compare branch (right): This should be your feature branch — the branch containing your changes.
-1. Review the file diffs shown below the branch selectors to confirm that only your intended changes are included.
-1. Click **Create pull request**.
-1. On the PR creation form, fill in the following fields: 
+    
+    ![Pull Request](/images/pullrequest.png)
+2. On the Compare changes page, verify the following: Base branch (left): This should be main — the branch you want to merge your changes into. Compare branch (right): This should be your feature branch — the branch containing your changes.
+3. Review the file diffs shown below the branch selectors to confirm that only your intended changes are included.
+4. Click **Create pull request**.
+5. On the PR creation form, fill in the following fields: 
    - Title: a concise, descriptive title summarizing the change, for example, **Add prerequisites section to Azure CLI quickstart**. 
    - Description: provide context for the reviewer — what changed, why it changed, and any specific areas requiring attention. 
    - Reviewers: add your manager or designated reviewer using the Reviewers panel on the right. 
    - Labels: optionally, add labels such as "documentation" or "in review" to categorize the PR. Linked issues: If the work is tied to a task or bug in a project tracker, link it here.
-1. Click **Create pull request** to submit the PR for review.
-1. GitHub will notify the assigned reviewer by email. The PR is now visible under the Pull requests tab of the repository.
+6. Click **Create pull request** to submit the PR for review.
+7. GitHub will notify the assigned reviewer by email. The PR is now visible under the Pull requests tab of the repository.
 
 You can see a live example of the PR creation interface at: [https://github.com/pankajsharmawriter/pankajsharmawriter.github.io/pulls](https://github.com/pankajsharmawriter/pankajsharmawriter.github.io/pulls)
 
