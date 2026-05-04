@@ -96,8 +96,8 @@ A Pull Request (PR) is a formal request to merge your branch's changes into the 
 1. Open your browser and navigate to your repository on GitHub: [https://github.com/pankajsharmawriter/pankajsharmawriter.github.io/](https://github.com/pankajsharmawriter/pankajsharmawriter.github.io/)
 1. After pushing your changes, GitHub usually displays a banner at the top of the repository page: "<branch-name> had recent pushes" with a Compare & pull request button. Click it.
 1. If the banner is not visible, click the Pull requests tab in the top navigation bar of the repository, then click the green **New pull request button**.
-    
-    ![Pull Request](/images/pullrequest.png)
+    [![Pull Request](images/pullrequest.png)](images/pullrequest.png)
+   
 2. On the Compare changes page, verify the following: Base branch (left): This should be main — the branch you want to merge your changes into. Compare branch (right): This should be your feature branch — the branch containing your changes.
 3. Review the file diffs shown below the branch selectors to confirm that only your intended changes are included.
 4. Click **Create pull request**.
