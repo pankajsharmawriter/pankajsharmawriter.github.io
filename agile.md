@@ -197,3 +197,18 @@ Example tasks:
 The sprint burndown chart tracks remaining story points against the sprint timeline. A healthy burndown slopes steadily downward. A flat line indicates blocked work. A cliff at the end indicates the team underestimated or started tasks late.
 
 **For technical writers**: Monitor the burndown mid-sprint. If your documentation tasks are stalled, raise them in the daily standup before they become a sprint-end problem.
+
+## Scrum vs Kanban
+
+Both Scrum and Kanban are Agile frameworks, but they have different structures and are suited to different workflows.
+
+| Dimension | Scrum | Kanban |
+| --- | --- | --- |
+| Work cycle | Fixed sprints (1–4 weeks) | Continuous flow, no sprints |
+| Planning | Sprint planning ceremony | Pull-based; items pulled when capacity allows |
+| Roles | Defined (PO, Scrum Master, Team) | No prescribed roles |
+| WIP limits | Not prescribed | Explicit WIP limits per column |
+| Changes mid-cycle | Generally avoided during a sprint | Can be added anytime |
+| Best for | Feature development with predictable cadence | Support queues, maintenance, ops, content updates |
+
+**For technical writers**: Scrum works well when documentation is tied to feature releases with defined sprint cycles. Kanban suits documentation teams that handle ad-hoc requests — a support article update today, a UI string review tomorrow. Many documentation teams use a Scrumban hybrid: sprint-based planning with Kanban-style WIP limits for flexibility.
