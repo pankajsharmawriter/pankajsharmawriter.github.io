@@ -231,13 +231,7 @@ Waterfall is a sequential, phase-based development model. Agile is iterative and
 
 ## Conclusion
 
-Understanding Agile, Scrum, and JIRA is not peripheral knowledge for technical writers — it is operational literacy. Every sprint planning meeting you participate in without understanding story points is a missed opportunity to advocate for documentation scope. Every retrospective you attend without raising a documentation process gap is a problem that repeats next sprint.
-
-This article matters because it closes the knowledge gap that exists for many technical writers who are excellent at writing but underprepared for the team dynamics of iterative development environments. When you understand the language of Scrum — when you can estimate your tasks in story points, track them on a JIRA board, and raise blockers in a standup with precision — you stop being a peripheral contributor and become a fully integrated member of the engineering team.
-
-For your end users — the technical writers who read this article — the immediate benefit is confidence: the confidence to sit in a sprint planning meeting and push back when documentation is scoped out, the confidence to write a JIRA ticket that an engineering manager can read and immediately understand, and the confidence to use retrospectives to fix the broken processes that slow documentation teams down.
-
-Agile is not just how software is built. For modern technical writers, it is how documentation is built too. The sooner you internalize that, the more effective you become.
+Understanding Agile, Scrum, and JIRA is not peripheral knowledge for technical writers — it is operational literacy. When you can estimate tasks in story points, track them on a JIRA board, and raise blockers in a standup with precision, you stop being a peripheral contributor and become a fully integrated member of the engineering team. This article closes the knowledge gap for technical writers who are excellent at writing but underprepared for iterative development environments. The immediate benefit is confidence — the confidence to advocate for documentation scope in sprint planning, write JIRA tickets an engineering manager can act on, and use retrospectives to fix broken processes. Agile is not just how software is built. For modern technical writers, it is how documentation is built too.
 
 For any query, contact me at **pankajsharmawriter@gmail.com**.
 
