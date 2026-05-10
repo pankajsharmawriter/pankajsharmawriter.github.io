@@ -33,4 +33,5 @@ For any query, contact me at **pankajsharmawriter@gmail.com**.
 -  [Markdown documentation using VS code and Github (Doc As Code)](./markdown)
 -  [Structured authoring with DITA and MadCap Flare](./dita)
 -  [End-to-end GitHub workflow for Technical Writers](./githubworkflow)
+-  [Agile, Scrum, and JIRA](./agile)
   
