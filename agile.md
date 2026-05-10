@@ -36,9 +36,11 @@ Scrum is a lightweight framework within Agile that organizes work into fixed-len
 
 As a technical writer, you are a member of the development team. You participate in all Scrum ceremonies and maintain documentation tasks as items in the product backlog or sprint board.
 
+
+
 ## Scrum ceremonies
 
-Scrum defines five formal ceremonies (also called events). Each has a specific purpose, a defined timebox, and expected participants.
+Scrum defines four formal ceremonies (also called events). Each has a specific purpose, a defined timebox, and expected participants.
 
 1.  **Sprint Planning Meeting**
 
@@ -119,3 +121,31 @@ Scrum defines five formal ceremonies (also called events). Each has a specific p
     - Feature specifications are not finalized when the sprint starts. This delays documentation by 3–4 days each sprint.
 
     Bring data. If a pattern repeats across sprints, note it. Retrospectives have the most impact when observations are specific and actionable.
+
+## Story points
+
+Story points are a unit of estimation used in Scrum to measure the relative effort, complexity, and risk of a backlog item — not the time it takes.
+
+Story points are typically assigned using the Fibonacci sequence: 1, 2, 3, 5, 8, 13, 21. The sequence is non-linear by design — the gap between 8 and 13 reflects that larger tasks carry proportionally more uncertainty.
+
+How estimation works:
+
+- The team reviews a backlog item
+- Each member privately selects a story point value
+- All values are revealed simultaneously
+- Outliers explain their reasoning
+- The team discusses and reaches consensus
+
+For technical writers — story point examples:
+
+| Documentation task | Story points |
+| --- | --- |
+| Minor update to an existing topic (< 100 words) | 1 |
+| New conceptual topic (500–700 words) | 3 |
+| New procedural guide (multi-step, screenshots needed) | 5 |
+| Full API endpoint reference (parameters, request/response examples) | 8 |
+| New user guide for a major feature | 13 |
+
+**Key principle**: Story points measure effort relative to your team's baseline, not absolute hours. A task that takes a junior writer 8 hours and a senior writer 3 hours might both be a 5-point task — because the points reflect the work, not the person.
+
+**Velocity**: The total story points completed per sprint is the team's velocity. Over time, velocity stabilizes and becomes a reliable planning input. If your documentation team consistently completes 18–22 story points per sprint, the Product Owner knows how much to plan per cycle.
