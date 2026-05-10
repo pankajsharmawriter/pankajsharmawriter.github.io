@@ -149,3 +149,51 @@ For technical writers — story point examples:
 **Key principle**: Story points measure effort relative to your team's baseline, not absolute hours. A task that takes a junior writer 8 hours and a senior writer 3 hours might both be a 5-point task — because the points reflect the work, not the person.
 
 **Velocity**: The total story points completed per sprint is the team's velocity. Over time, velocity stabilizes and becomes a reliable planning input. If your documentation team consistently completes 18–22 story points per sprint, the Product Owner knows how much to plan per cycle.
+
+## JIRA dashboard concepts
+
+JIRA (by Atlassian) is the most widely used project tracking tool in Agile teams. Understanding its core concepts allows you to manage your documentation tasks efficiently and communicate status clearly to your team.
+
+### Backlog
+
+The backlog is the complete, prioritized list of all work to be done — features, bugs, documentation tasks, and technical debt. The Product Owner owns the backlog and continuously grooms (refines) it.
+
+**For technical writers**: Maintain a personal documentation backlog. Create JIRA tickets for every documentation task, even if it is not yet planned for a sprint. This prevents work from becoming invisible.
+
+### Epic
+An Epic is a large body of work that spans multiple sprints. Epics are broken down into smaller stories or tasks.
+
+**Example**: An Epic titled "Developer Documentation for Authentication API v2" might contain stories for the overview, endpoint reference, error codes, and migration guide.
+
+### User story
+A user story is a backlog item written from the end user's perspective. The standard format is:
+
+As a [user], I want to [action], so that [benefit].
+
+**Example for documentation**:
+
+As a developer, I want a reference for all authentication endpoints, so that I can integrate the API without contacting support.
+
+### Task
+
+A Task is a concrete work item, often a child of a Story or Epic. For technical writers, tasks are the most common ticket type.
+Example tasks:
+
+- DOC-201: Write first draft — Authentication Overview
+- DOC-202: Peer review — Error Codes Reference
+- DOC-203: Publish and link — Migration Guide
+
+### JIRA board views
+
+| View | Purpose |
+| --- | --- |
+| Scrum Board | Kanban-style columns (To Do, In Progress, In Review, Done) for the active sprint |
+| Backlog View | Full list of upcoming and unplanned work |
+| Roadmap | Timeline view of Epics across quarters |
+| Dashboard | Customizable widgets — sprint burndown, velocity chart, issue breakdown |
+
+### Burndown chart
+
+The sprint burndown chart tracks remaining story points against the sprint timeline. A healthy burndown slopes steadily downward. A flat line indicates blocked work. A cliff at the end indicates the team underestimated or started tasks late.
+
+**For technical writers**: Monitor the burndown mid-sprint. If your documentation tasks are stalled, raise them in the daily standup before they become a sprint-end problem.
