@@ -29,7 +29,7 @@ In a Docs-as-Code workflow, your standard toolkit looks like this:
 Docusaurus is a free, open-source tool that converts your Markdown files into a fully functional documentation website. You write content in plain `.md` files, and Docusaurus handles all the HTML, CSS, navigation, search, and layout automatically.
 It was originally built by Meta (the company behind Facebook) to manage their own large-scale open-source documentation. Today, it is used by thousands of organizations worldwide — including companies like Algolia, Supabase, and React — to publish technical documentation.
 
-### Why Docusaurus ss built for Technical Writers
+### Why Docusaurus is built for Technical Writers
 
 Docusaurus is not a blogging platform and it is not a generic website builder. It is specifically designed for documentation. Out of the box, it gives you:
 - **Structured navigation**: Your docs automatically appear in a sidebar, organized by folder structure. You do not build menus manually.
@@ -44,3 +44,39 @@ Docusaurus is not a blogging platform and it is not a generic website builder. I
 Docusaurus is licensed under the MIT License, which means it is completely free to use for any purpose — personal projects, employer documentation, portfolio sites, or commercial use. There is no trial period, no license fee, and no paid tier.
 When you pair it with GitHub (free for public repositories) and GitHub Pages (free static site hosting), your entire documentation pipeline costs nothing.
 
+## What you need before you start
+
+This section covers every piece of software you need to install before setting up Docusaurus. Install them in the order listed.
+
+1. **Node.js**
+
+    Docusaurus runs on Node.js, a software platform that lets you run JavaScript-based tools on your computer. You do not need to know JavaScript — Node.js simply powers the engine that Docusaurus uses behind the scenes.
+
+    **To install Node.js**:
+    1. Open your browser and go to https://nodejs.org.
+    1. You will see two download options on the homepage. Click the one labeled LTS (Long-Term Support). This is the stable version recommended for most users.
+    1. Download the installer for your operating system (Windows or macOS).
+    1. Run the installer and follow the on-screen prompts. Accept all default settings.
+
+**To verify the installation worked**:
+
+After installation, open the Command Prompt (Windows) or Terminal (macOS):
+
+- **Windows**: Press `Windows key + R`, type `cmd`, and press **Enter**.
+- **macOS**: Press `Command + Space`, type `Terminal`, and press **Enter**.
+
+In the window that opens, type the following and press Enter:
+
+```cmd
+node --version
+```
+
+You should see a version number printed, like v20.11.0. If you see a number, Node.js is installed correctly. If you see an error, restart your computer and try again.
+
+Also type this and press Enter:
+
+```cmd
+npm --version
+```
+
+npm is the package manager that comes bundled with Node.js. You use it to install Docusaurus. You should see a version number like `10.2.4`.
