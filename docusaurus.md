@@ -58,25 +58,35 @@ This section covers every piece of software you need to install before setting u
     1. Download the installer for your operating system (Windows or macOS).
     1. Run the installer and follow the on-screen prompts. Accept all default settings.
 
-**To verify the installation worked**:
+    **To verify the installation worked**:
 
-After installation, open the Command Prompt (Windows) or Terminal (macOS):
+    After installation, open the Command Prompt (Windows) or Terminal (macOS):
 
-- **Windows**: Press `Windows key + R`, type `cmd`, and press **Enter**.
-- **macOS**: Press `Command + Space`, type `Terminal`, and press **Enter**.
+    - **Windows**: Press `Windows key + R`, type `cmd`, and press **Enter**.
+    - **macOS**: Press `Command + Space`, type `Terminal`, and press **Enter**.
 
-In the window that opens, type the following and press Enter:
+    In the window that opens, type the following and press Enter:
 
-```cmd
-node --version
-```
+    ```cmd
+    node --version
+    ```
 
-You should see a version number printed, like v20.11.0. If you see a number, Node.js is installed correctly. If you see an error, restart your computer and try again.
+    You should see a version number printed, like `v20.11.0`. If you see a number, Node.js is installed correctly. If you see an error, restart your computer and try again.
 
-Also type this and press Enter:
+    Also type this and press Enter:
 
-```cmd
-npm --version
-```
+    ```cmd
+    npm --version
+    ```
 
-npm is the package manager that comes bundled with Node.js. You use it to install Docusaurus. You should see a version number like `10.2.4`.
+    npm is the package manager that comes bundled with Node.js. You use it to install Docusaurus. You should see a version number like `10.2.4`.
+
+1. **Visual Studio Code**
+
+    Visual Studio Code (VS Code) is a free text editor made by Microsoft. For technical writers in a Docs-as-Code workflow, it serves as your primary writing environment.
+
+    To install VS Code:
+
+    1. Go to [https://code.visualstudio.com](https://code.visualstudio.com).
+    1. Click the Download button for your operating system.
+    1. Run the installer with all default settings.
