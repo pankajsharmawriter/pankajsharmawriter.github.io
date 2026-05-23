@@ -247,3 +247,73 @@ The command takes one to two minutes. When it finishes, you will see a message: 
 
 **Note**: This is the Windows syntax for running the deploy command. The `cmd /C "set GIT_USER=..." ` part sets your GitHub username as an environment variable before running the deploy script.
 
+## Step 12: Configure GitHub Pages to serve your Docusaurus site
+
+1. Open your browser and go to your repository on GitHub: [https://github.com/pankajsharmawriter/pankajsharmawriter.github.io](https://github.com/pankajsharmawriter/pankajsharmawriter.github.io)
+1. Click the **Settings** tab.
+1. In the left sidebar, click **Pages**.
+1. Under **Source**, select:
+
+    - Branch: gh-pages
+    - Folder: / (root)
+
+
+1. Click **Save**.
+
+GitHub rebuilds your site. Wait two to three minutes, then open your browser and go to:
+
+``` cmd
+https://pankajsharmawriter.github.io/my-docs/
+```
+
+Your Docusaurus documentation site is now live on the internet.
+
+
+## How to publish updates going forward
+
+Each time you add or update an article, follow these steps:
+
+1. Write or edit your Markdown files in `my-docs/docs/` using VS Code.
+1. Preview your changes locally by running npm start in the terminal from inside `my-docs/`.
+1. When you are satisfied, stop the server with `Ctrl+C`.
+1. Open GitHub Desktop, review the changed files, write a commit message, and click **Commit** to main.
+1. Click **Push origin** to push your source files to GitHub.
+1. In the VS Code terminal, run the deploy command again:
+
+    ``` cmd
+    cmd /C "set GIT_USER=pankajsharmawriter && npm run deploy"
+    ```
+
+This rebuilds the site and publishes the updated version to your public URL.
+
+## What your project looks like after setup
+
+After completing all steps, your repository contains both your original Jekyll files and the new Docusaurus project side by side:
+
+``` yaml
+
+pankajsharmawriter.github.io/
+├── _config.yml              ← Jekyll config (untouched)
+├── _posts/                  ← Existing Jekyll content (untouched)
+├── .gitignore               ← Updated to exclude node_modules
+├── my-docs/                 ← Your new Docusaurus project
+│   ├── docs/
+│   │   ├── api-documentation-basics.md
+│   │   └── docs-as-code.md
+│   ├── docusaurus.config.js
+│   ├── package.json
+│   ├── build/               ← Compiled site (auto-generated, not committed)
+│   └── node_modules/        ← Dependencies (excluded from GitHub)
+
+```
+Your Jekyll and Docusaurus configurations are completely independent of each other. Changes to one do not affect the other.
+
+## Conclusion
+
+Setting up Docusaurus in an existing Docs-as-Code environment is straightforward once you understand that it runs as a self-contained project inside your repository. Your existing tools — VS Code for writing, GitHub Desktop for version control, and GitHub Pages for hosting — remain exactly the same. Docusaurus simply replaces Jekyll as the tool that converts your Markdown files into a published documentation site. The result is a professional, structured documentation website with built-in navigation, search, and dark mode, without requiring you to learn a new editor or change your writing workflow. As your portfolio grows, Docusaurus scales with it — you can add versioning, custom themes, and additional content sections at any point. Start by migrating one or two articles, preview them locally, and deploy when you are confident in the result.
+
+For any query, contact me at **pankajsharmawriter@gmail.com**.
+
+## Reference
+
+-  [About me](./)
