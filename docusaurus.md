@@ -184,3 +184,23 @@ title: API Documentation Basics
 sidebar_label: API Documentation
 ---
 ```
+## Step 8: Update the Docusaurus configuration file
+
+Open `my-docs/docusaurus.config.js` in VS Code. This is the main configuration file for your Docusaurus site.
+Find and update the following fields:
+
+``` javascript
+const config = {
+  title: 'Pankaj Sharma | Technical Writer',
+  tagline: 'Articles on API documentation, Docs-as-Code, and technical writing tools',
+  url: 'https://pankajsharmawriter.github.io',
+  baseUrl: '/my-docs/',
+  organizationName: 'pankajsharmawriter',
+  projectName: 'pankajsharmawriter.github.io',
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
+};
+```
+**Important**: The `baseUrl` value must match the subfolder name you used in Step 4. If you named your folder `my-docs`, set `baseUrl` to `/my-docs/`. If you used a different name, update this value to match.
+
+Save the file after making changes.
