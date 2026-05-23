@@ -100,3 +100,28 @@ In VS Code, press Ctrl+` to open the integrated terminal at the bottom of the sc
 The terminal opens at your project root directory. You will see a path like **C:\Users\YourName\Documents\GitHub\pankajsharmawriter.github.io>**.
 All commands in the steps below are typed into this terminal.
 
+## Step 3: Create a new Docusaurus project inside your repository
+
+You will create a Docusaurus project inside a subfolder of your existing repository. This keeps it completely separate from your Jekyll files.
+In the terminal, type the following command and press **Enter**:
+
+```cmd
+npx create-docusaurus@latest my-docs classic
+```
+
+### What does this command do
+
+- **npx** is a tool that comes with npm. It runs a package without installing it permanently.
+- **create-docusaurus@latest** downloads the latest version of Docusaurus and sets up a new project.
+- **my-docs** is the name of the subfolder that will be created. You can change this name, but if you do, replace my-docs with your chosen name in every step that follows.
+- **classic** is the template — it includes a docs section, a blog section, and a landing page.
+
+The command takes a minute or two to run. It downloads Docusaurus and creates a `my-docs/` folder inside your project.
+When it finishes, you will see a message like `Happy building awesome docs!` in the terminal.
+
+### What the installer asks you
+
+During setup, it may ask:
+
+- Which language do you want to use? Select **JavaScript**.
+- Do you want to use TypeScript? Select **No**.
