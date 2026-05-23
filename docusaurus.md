@@ -218,3 +218,32 @@ The `node_modules/` folder must never be pushed to GitHub. It is too large and i
 1. Save the file.
 
 GitHub Desktop will now ignore the `node_modules/` folder and will not include it in your commits.
+
+## Step 10: Build the static site
+
+Before deploying to GitHub Pages, you need to compile your Docusaurus site into static HTML, CSS, and JavaScript files.
+In the terminal (make sure you are inside `my-docs/`), type:
+
+``` cmd
+npm run build
+```
+
+Docusaurus compiles your Markdown files and outputs the static site into a `my-docs/build/` folder. This folder contains everything GitHub Pages needs to serve your site.
+The build process takes about 30 to 60 seconds.
+
+## Step 11: Deploy to GitHub Pages
+
+Now you publish your site to the public URL on GitHub Pages.
+In the terminal, type the following command exactly as written, replacing `pankajsharmawriter` with your own GitHub username:
+
+``` cmd
+cmd /C "set GIT_USER=pankajsharmawriter && npm run deploy"
+```
+
+### What does this command do?
+It builds your site and pushes the compiled output from the `build/` folder to a special branch in your repository called `gh-pages`. GitHub Pages serves your site directly from this branch.
+
+The command takes one to two minutes. When it finishes, you will see a message: Website is live at: **https://pankajsharmawriter.github.io/my-docs/**
+
+**Note**: This is the Windows syntax for running the deploy command. The `cmd /C "set GIT_USER=..." ` part sets your GitHub username as an environment variable before running the deploy script.
+
