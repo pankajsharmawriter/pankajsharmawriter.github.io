@@ -85,3 +85,18 @@ This section covers every piece of software you need to install before setting u
     1. Click **Download** for your OS.
     1. Run the installer.
     1. When GitHub Desktop opens, sign in with your GitHub account. If you do not have one, go to https://github.com and create a free account first.
+
+## Step 1: Open your repository in VS Code
+
+1. Open GitHub Desktop.
+1. In the left sidebar, select your repository — **pankajsharmawriter.github.io**.
+1. Click **Open in Visual Studio Code**.
+
+VS Code opens with your project files visible in the Explorer panel on the left. You will see your existing files including _config.yml and your Markdown articles. Do not touch any of these files.
+
+## Step 2: Open the VS Code integrated terminal
+
+In VS Code, press **Ctrl+`** to open the integrated terminal at the bottom of the screen.
+The terminal opens at your project root directory. You will see a path like `C:\Users\YourName\Documents\GitHub\pankajsharmawriter.github.io>`.
+All commands in the steps below are typed into this terminal.
+
