@@ -96,7 +96,7 @@ VS Code opens with your project files visible in the Explorer panel on the left.
 
 ## Step 2: Open the VS Code integrated terminal
 
-In VS Code, press **Ctrl+`** to open the integrated terminal at the bottom of the screen.
-The terminal opens at your project root directory. You will see a path like `C:\Users\YourName\Documents\GitHub\pankajsharmawriter.github.io>`.
+In VS Code, press Ctrl+` to open the integrated terminal at the bottom of the screen.
+The terminal opens at your project root directory. You will see a path like **C:\Users\YourName\Documents\GitHub\pankajsharmawriter.github.io>**.
 All commands in the steps below are typed into this terminal.
 
