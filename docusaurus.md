@@ -147,3 +147,40 @@ npm install
 
 This downloads all the packages that Docusaurus needs to run. It creates a folder called `node_modules/` inside `my-docs/`. This folder is large — it can contain thousands of small files — but you will exclude it from GitHub in a later step so it does not get pushed to your repository.
 The installation takes one to two minutes. You will see a progress indicator in the terminal.
+
+## Step 6: Run Docusaurus on localhost
+
+Now you will preview your Docusaurus site on your computer before publishing it publicly.
+In the terminal, type:
+
+``` cmd
+npm start
+```
+
+Docusaurus compiles your project and opens it in your default browser automatically at `http://localhost:3000`.
+
+You will see the default Docusaurus site — a landing page with a **Docs** section. This is your site running locally on your machine. No one else can see it yet.
+
+To stop the local server at any time, click inside the terminal and press **Ctrl+C**.
+
+## Step 7: Add your Markdown articles to Docusaurus
+
+Your existing Markdown articles live in the root of your repository. You now copy the ones you want to publish with Docusaurus into the `my-docs/docs/` folder.
+
+1. In the VS Code Explorer panel, expand the `my-docs` folder.
+1. Inside it, open the `docs/` subfolder.
+1. Copy your Markdown articles into `my-docs/docs/`.
+
+### Add frontmatter to each article
+
+Docusaurus reads a small block of metadata at the top of each Markdown file called frontmatter. This tells Docusaurus the page title, URL, and sidebar label.
+Add the following block to the very top of each Markdown file, before any other content:
+
+``` yaml
+
+---
+id: api-documentation-basics
+title: API Documentation Basics
+sidebar_label: API Documentation
+---
+```
