@@ -7,42 +7,15 @@ layout: default
 
 # How to set up Docusaurus in a Docs-as-Code environment
 
-In this article, I am explaining how to set up Docusaurus as your static site generator in a Docs-as-Code environment. You will learn what Docusaurus is, how to install it on your computer, how to connect it to GitHub Desktop for version control, and how to write and organize your documentation using Markdown in Visual Studio Code.
-If you have never set up a documentation website before, this article walks you through every step — from installing the required software to seeing your first page live in a browser. Every instruction is written with technical writers in mind, not developers. You do not need to know programming to follow this guide.
-By the end of this article, you will have a fully working Docusaurus documentation site running on your computer, connected to a GitHub repository, and ready for you to write and publish documentation.
+I use VS Code to write Markdown content, GitHub Desktop to commit and push changes, and GitHub Pages to publish my documentation as a static site. Until recently, Jekyll was handling the site generation for me. While Jekyll works well for general-purpose blogs and sites, I wanted something purpose-built for documentation — structured navigation, versioning, and a cleaner reading experience out of the box.
+That is where Docusaurus comes in. In this guide, I walk you through every step of setting up Docusaurus in the same Docs-as-Code environment you are already using — VS Code, GitHub Desktop, and GitHub Pages — without touching your existing Jekyll configuration. By the end, your documentation site will be live on a public GitHub Pages URL.
 
-## What Is Docs-as-Code?
+## What is Docusaurus
 
-Before diving into Docusaurus, it helps to understand what Docs-as-Code means, because it shapes everything about how you will work.
-Docs-as-Code is an approach to writing documentation where you treat your content the same way software developers treat their code. Instead of writing in a word processor like Microsoft Word, you write in plain text files using Markdown. Instead of emailing files to reviewers, you use version control (GitHub) to track every change, collaborate with others, and publish updates.
-In a Docs-as-Code workflow, your standard toolkit looks like this:
+Docusaurus is an open source static site generator built by Meta, designed specifically for documentation. It converts your Markdown files into a structured, searchable documentation website.
+Unlike Jekyll — which was built for blogs and general websites — Docusaurus is built from the ground up for technical documentation. It gives you sidebar navigation, search, versioning, dark mode, and a professional documentation layout without any extra configuration.
+You write in Markdown. Docusaurus takes care of the rest.
 
-| Tool | Purpose |
-| --- | --- |
-| Visual Studio Code | Your writing and editing environment |
-| Markdown | The format you write content in |
-| GitHub Desktop | Version control — saving and tracking changes |
-| Docusaurus | Converts your Markdown files into a documentation website |
-
-## What Is Docusaurus
-
-Docusaurus is a free, open-source tool that converts your Markdown files into a fully functional documentation website. You write content in plain `.md` files, and Docusaurus handles all the HTML, CSS, navigation, search, and layout automatically.
-It was originally built by Meta (the company behind Facebook) to manage their own large-scale open-source documentation. Today, it is used by thousands of organizations worldwide — including companies like Algolia, Supabase, and React — to publish technical documentation.
-
-### Why Docusaurus is built for Technical Writers
-
-Docusaurus is not a blogging platform and it is not a generic website builder. It is specifically designed for documentation. Out of the box, it gives you:
-- **Structured navigation**: Your docs automatically appear in a sidebar, organized by folder structure. You do not build menus manually.
-- **Versioning**: If you document software that has multiple releases (v1.0, v2.0), Docusaurus lets you maintain separate documentation for each version without duplicating your work.
-- **Built-in search**: Readers can search across your entire documentation site without any extra setup.
-- **Dark mode**: Every Docusaurus site supports light and dark mode by default, with no extra configuration.
-- **MDX support**: You can embed interactive elements inside your Markdown files if you ever need to — though for most technical writers, standard Markdown is all you will ever need.
-- **Fast local preview**: You can see your documentation in a browser on your computer as you write, before publishing anything. Every time you save a file, the browser updates automatically.
-
-### Docusaurus is free
-
-Docusaurus is licensed under the MIT License, which means it is completely free to use for any purpose — personal projects, employer documentation, portfolio sites, or commercial use. There is no trial period, no license fee, and no paid tier.
-When you pair it with GitHub (free for public repositories) and GitHub Pages (free static site hosting), your entire documentation pipeline costs nothing.
 
 ## What you need before you start
 
@@ -88,5 +61,16 @@ This section covers every piece of software you need to install before setting u
     To install VS Code:
 
     1. Go to [https://code.visualstudio.com](https://code.visualstudio.com).
-    1. Click the Download button for your operating system.
+    1. Click the **Download** button for your operating system.
     1. Run the installer with all default settings.
+
+1. **GitHub Desktop**
+
+    GitHub Desktop is a visual application that lets you use Git version control without typing commands. You click buttons instead of typing instructions, which makes it far more accessible for writers who are new to version control.
+
+    To install GitHub Desktop:
+
+    1. Go to [https://desktop.github.com](https://desktop.github.com).
+    1. Click **Download** for your OS.
+    1. Run the installer.
+    1. When GitHub Desktop opens, sign in with your GitHub account. If you do not have one, go to https://github.com and create a free account first.

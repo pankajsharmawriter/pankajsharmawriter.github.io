@@ -34,5 +34,6 @@ For any query, contact me at **pankajsharmawriter@gmail.com**.
 -  [Structured authoring with DITA and MadCap Flare](./dita)
 -  [End-to-end GitHub workflow for Technical Writers](./githubworkflow)
 -  [Agile, Scrum, and JIRA](./agile)
+-  [How to set up Docusaurus in a Docs-as-Code environment](./docusaurus)
   
   
