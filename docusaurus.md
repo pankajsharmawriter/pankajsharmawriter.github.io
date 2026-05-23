@@ -16,6 +16,17 @@ Docusaurus is an open source static site generator built by Meta, designed speci
 Unlike Jekyll — which was built for blogs and general websites — Docusaurus is built from the ground up for technical documentation. It gives you sidebar navigation, search, versioning, dark mode, and a professional documentation layout without any extra configuration.
 You write in Markdown. Docusaurus takes care of the rest.
 
+## Who this article is for
+This guide is written for technical writers who:
+
+- Already write content in Markdown using VS Code
+- Use GitHub Desktop to commit and push changes to GitHub
+- Publish their site using GitHub Pages
+- Have a Jekyll _config.yml file in their repository that they want to keep untouched
+- Have little or no experience with Node.js or command-line tools
+
+No prior experience with Docusaurus or Node.js is required.
+
 
 ## What you need before you start
 
