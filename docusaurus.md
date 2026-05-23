@@ -125,3 +125,25 @@ During setup, it may ask:
 
 - Which language do you want to use? Select **JavaScript**.
 - Do you want to use TypeScript? Select **No**.
+
+## Step 4: Navigate into the Docusaurus folder
+
+In the terminal, type:
+
+``` cmd
+cd my-docs
+```
+
+This moves the terminal into your new Docusaurus folder. All commands from this point forward run from inside `my-docs/`.
+
+## Step 5: Install dependencies
+
+Type the following command and press **Enter**:
+
+``` cmd
+npm install
+```
+
+
+This downloads all the packages that Docusaurus needs to run. It creates a folder called `node_modules/` inside `my-docs/`. This folder is large — it can contain thousands of small files — but you will exclude it from GitHub in a later step so it does not get pushed to your repository.
+The installation takes one to two minutes. You will see a progress indicator in the terminal.
