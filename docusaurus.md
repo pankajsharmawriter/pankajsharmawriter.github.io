@@ -204,3 +204,17 @@ const config = {
 **Important**: The `baseUrl` value must match the subfolder name you used in Step 4. If you named your folder `my-docs`, set `baseUrl` to `/my-docs/`. If you used a different name, update this value to match.
 
 Save the file after making changes.
+
+## Step 9: Exclude node_modules from GitHub
+
+The `node_modules/` folder must never be pushed to GitHub. It is too large and is automatically recreated from `package.json` by anyone who clones your project.
+
+1. In VS Code, open the `.gitignore` file in the root of your repository (not inside `my-docs/`).
+1. If the file does not exist, create a new file in the root folder and name it `.gitignore`.
+1. Add the following line to the file:
+    ``` cmd
+    my-docs/node_modules/
+    ```
+1. Save the file.
+
+GitHub Desktop will now ignore the `node_modules/` folder and will not include it in your commits.
