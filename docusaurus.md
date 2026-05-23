@@ -254,8 +254,8 @@ The command takes one to two minutes. When it finishes, you will see a message: 
 1. In the left sidebar, click **Pages**.
 1. Under **Source**, select:
 
-    - Branch: gh-pages
-    - Folder: / (root)
+    - Branch: `gh-pages`
+    - Folder: `/ (root)`
 
 
 1. Click **Save**.
