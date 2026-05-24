@@ -42,3 +42,20 @@ MkDocs is built on Python. You must install Python before you can install MkDocs
     ```
 
 1. You should see a version number such as `Python 3.12.2`. This confirms Python is installed correctly.
+
+## Step 2: Install MkDocs
+
+With Python installed, you can now install MkDocs using pip. pip is Python's package manager — it works the same way npm works for Node.js. It was installed automatically with Python.
+
+1. In the VS Code integrated terminal, type the following command and press **Enter**:
+
+    ``` cmd
+    pip install mkdocs
+    ```
+1. pip downloads and installs MkDocs and its dependencies. This takes about one minute.
+1. Verify the installation by running:
+    ``` cmd
+    mkdocs --version
+    ```
+1. You should see output like `mkdocs, version 1.5.3`. This confirms MkDocs is installed.
+
