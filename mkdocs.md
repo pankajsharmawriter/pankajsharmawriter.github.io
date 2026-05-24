@@ -234,3 +234,62 @@ https://pankajsharmawriter.github.io/my-mkdocs-site/
 ```
 
 **Note**: The `mkdocs gh-deploy` command handles the entire deployment in one step. You do not need to manually push any files or run separate build commands.
+
+## Step 12: Configure GitHub Pages settings
+
+1. Open your browser and go to your repository on GitHub.
+1. Click the **Settings** tab.
+1. In the left sidebar, click **Pages**.
+1. Under **Source**, select:
+
+    - Branch: `gh-pages`
+    - Folder: `/ (root)`
+
+
+1. Click **Save**.
+
+Wait two to three minutes, then open your browser and go to:
+
+``` cmd
+
+https://pankajsharmawriter.github.io/my-mkdocs-site/
+
+```
+
+Your MkDocs documentation site is now live on the internet.
+
+## How to publish updates
+
+Each time you add or update an article, follow these steps:
+
+1. Write or edit your Markdown files in `my-mkdocs-site/docs/` using VS Code.
+1. Preview your changes locally by running mkdocs serve from inside `my-mkdocs-site/`.
+1. Press **Ctrl+C** to stop the server when done.
+1. Open GitHub Desktop, write a commit message, and click **Commit** to main.
+1. Click **Push origin** to push your source files to GitHub.
+1. In the VS Code terminal, run the deploy command to publish the updated site:
+
+    ``` cmd
+    mkdocs gh-deploy
+    ```
+
+## What your project structure looks like after setup
+
+``` yaml
+
+your-repository/
+├── _config.yml                  ← Jekyll config (untouched)
+├── _posts/                      ← Existing Jekyll content (untouched)
+├── .gitignore                   ← Updated to exclude site/ folder
+└── my-mkdocs-site/              ← New MkDocs project
+    ├── docs/
+    │   ├── index.md
+    │   ├── api-documentation.md
+    │   └── docs-as-code.md
+    ├── mkdocs.yml
+    └── site/                    ← Compiled output (excluded from GitHub)
+
+```
+
+Your Jekyll and MkDocs configurations are completely independent of each other. Changes to one do not affect the other.
+
