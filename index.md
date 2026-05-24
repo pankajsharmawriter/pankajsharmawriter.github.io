@@ -22,6 +22,8 @@ I am also an author of [Girl Who Murdered Arranged Marriage](https://www.amazon.
 
 Connect me on linkedin at [https://www.linkedin.com/in/ps2001/](https://www.linkedin.com/in/ps2001/).
 
+Try my Technical Writing Agent [https://huggingface.co/spaces/pankajsharmawriter/TechnicalWritingAgent](https://huggingface.co/spaces/pankajsharmawriter/TechnicalWritingAgent).
+
 For any query, contact me at **pankajsharmawriter@gmail.com**. 
 
 ## My Documentation Pages
