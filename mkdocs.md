@@ -106,3 +106,39 @@ You create the MkDocs project as a subfolder inside your existing repository. Th
     - **index.md** — the default home page of your site.
     - **mkdocs.yml** — the configuration file for your MkDocs site.
 
+## Step 6: Configure the mkdocs.yml file
+
+Open `my-mkdocs-site/mkdocs.yml` in VS Code. This file controls your site's name, theme, and navigation.
+
+Replace the default contents with the following configuration:
+
+``` yaml
+site_name: Pankaj Sharma | Technical Writer
+site_url: https://pankajsharmawriter.github.io/my-mkdocs-site/
+site_description: Articles on technical writing, API documentation, and Docs-as-Code
+site_author: Pankaj Sharma
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.sidebar
+    - navigation.top
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Articles:
+    - API documentation basics: api-documentation.md
+    - Docs-as-Code with Markdown: docs-as-code.md
+    - Agile and Scrum: agile.md
+```
+
+**Note**: Update the **nav** section to match the actual filenames of your Markdown articles inside the `docs/` folder. Every file listed in **nav** must exist in `docs/`.
+
+Save the file after making your changes.
