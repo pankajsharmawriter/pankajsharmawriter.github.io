@@ -190,3 +190,25 @@ Your MkDocs site opens with the Material theme applied. The left sidebar shows y
 
 **Note**: Any changes you make to your Markdown files while the server is running are reflected in the browser immediately without restarting the server.
 
+## Step 9: Build the static site
+
+When you are satisfied with the local preview, build the static site files that GitHub Pages will serve.
+
+In the terminal (from inside `my-mkdocs-site/`), run:
+``` cmd
+mkdocs build
+```
+MkDocs compiles all your Markdown files into static HTML, CSS, and JavaScript files and outputs them into a `my-mkdocs-site/site/` folder.
+
+## Step 10: Add the site folder to .gitignore
+
+The `site/` folder is auto-generated each time you build. It does not need to be committed to GitHub as source code because you will deploy it separately in the next step.
+
+1. Open the `.gitignore` file in the root of your repository. If it does not exist, create a new file named `.gitignore` in the root folder.
+
+1. Add the following line:
+    ``` cmd
+    my-mkdocs-site/site/
+    ```
+
+1. Save the file.
