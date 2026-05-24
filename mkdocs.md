@@ -142,3 +142,23 @@ nav:
 **Note**: Update the **nav** section to match the actual filenames of your Markdown articles inside the `docs/` folder. Every file listed in **nav** must exist in `docs/`.
 
 Save the file after making your changes.
+
+## Step 7: Add your Markdown articles
+
+Copy the Markdown articles you want to publish into the `my-mkdocs-site/docs/` folder.
+
+Each article does not require a frontmatter block — MkDocs reads the first H1 heading in each file as the page title. However, you can optionally add a simple frontmatter block for better control:
+
+``` yaml
+---
+title: API Documentation Basics
+---
+
+# API documentation basics
+
+Your content starts here.
+```
+
+**Tip**: Keep your filenames lowercase with hyphens and no spaces — for example, `api-documentation.md`, not `API Documentation.md`. This ensures clean URLs on your published site.
+
+
