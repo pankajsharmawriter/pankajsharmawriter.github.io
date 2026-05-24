@@ -212,3 +212,25 @@ The `site/` folder is auto-generated each time you build. It does not need to be
     ```
 
 1. Save the file.
+
+## Step 11: Deploy to GitHub Pages
+
+MkDocs includes a built-in deploy command that builds your site and pushes it directly to the `gh-pages` branch of your repository — the branch that GitHub Pages serves.
+
+In the terminal (from inside `my-mkdocs-site/`), run:
+
+``` cmd
+mkdocs gh-deploy
+```
+
+MkDocs builds the site, creates the `gh-pages` branch if it does not already exist, and pushes the compiled files to GitHub.
+
+When the command finishes, you will see a message like:
+
+``` cmd
+INFO - Your documentation should shortly be available at:
+https://pankajsharmawriter.github.io/my-mkdocs-site/
+
+```
+
+**Note**: The `mkdocs gh-deploy` command handles the entire deployment in one step. You do not need to manually push any files or run separate build commands.
