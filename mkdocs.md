@@ -293,3 +293,12 @@ your-repository/
 
 Your Jekyll and MkDocs configurations are completely independent of each other. Changes to one do not affect the other.
 
+## Conclusion
+
+MkDocs is one of the most practical tools a technical writer can add to their Docs-as-Code skillset. It requires no JavaScript knowledge, integrates seamlessly with the VS Code and GitHub Desktop workflow you already use, and produces a professional documentation site with a single deploy command. Understanding MkDocs alongside Jekyll and Docusaurus positions you as a versatile technical writer who can adapt to different documentation toolchains — a quality that enterprise employers and product teams actively look for. Whether you are building a personal portfolio, contributing to an open source project, or setting up documentation infrastructure at a new company, the workflow covered in this article gives you a repeatable, version-controlled process that scales with your content.
+
+For any query, contact me at **pankajsharmawriter@gmail.com**.
+
+## Reference
+
+-  [About me](./)
