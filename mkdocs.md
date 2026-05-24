@@ -59,3 +59,19 @@ With Python installed, you can now install MkDocs using pip. pip is Python's pac
     ```
 1. You should see output like `mkdocs, version 1.5.3`. This confirms MkDocs is installed.
 
+## Step 3: Install the Material for MkDocs theme
+
+The default MkDocs theme is functional but basic. Material for MkDocs is a free, professionally designed theme that makes your documentation site look polished and modern. It is the most widely used MkDocs theme in the industry.
+
+In the terminal, type the following command and press **Enter**:
+
+``` cmd
+pip install mkdocs-material
+```
+## Step 4: Open your repository in VS Code
+
+1. Open GitHub Desktop.
+1. In the left sidebar, select your GitHub Pages repository.
+1. Click **Open in Visual Studio Code**.
+
+Your existing project files — including your Jekyll _config.yml and Markdown articles — appear in the VS Code Explorer panel. Do not modify any of these files.
