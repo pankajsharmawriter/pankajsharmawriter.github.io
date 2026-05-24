@@ -161,4 +161,32 @@ Your content starts here.
 
 **Tip**: Keep your filenames lowercase with hyphens and no spaces — for example, `api-documentation.md`, not `API Documentation.md`. This ensures clean URLs on your published site.
 
+## Step 8: Run MkDocs on localhost
+
+Before publishing your site, preview it locally to verify that everything looks correct.
+
+1. In the VS Code terminal, navigate into your MkDocs folder:
+
+    ``` cmd
+    cd my-mkdocs-site
+    ```
+
+1. Start the local development server:
+
+    ``` cmd
+    mkdocs serve
+    ```
+
+1. MkDocs compiles your site and displays the following message in the terminal:
+
+    ``` cmd
+    INFO - Serving on http://127.0.0.1:8000/
+    ```
+
+1. Open your browser and go to `http://127.0.0.1:8000/`.
+Your MkDocs site opens with the Material theme applied. The left sidebar shows your navigation, and the search bar is functional.
+
+1. To stop the server, click inside the terminal and press **Ctrl+C**.
+
+**Note**: Any changes you make to your Markdown files while the server is running are reflected in the browser immediately without restarting the server.
 
