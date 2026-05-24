@@ -8,3 +8,37 @@ layout: default
 # How to set up MkDocs in a Docs-as-Code environment
 
 In this article, I will explain how to set up MkDocs as a static site generator in an existing Docs-as-Code environment. If you already use VS Code to write Markdown content, GitHub Desktop to commit and push your changes, and GitHub Pages to publish your site, this guide walks you through every step — from installing Python to publishing your MkDocs site on a live public URL. By the end of this article, you will have a professional documentation site running locally on your computer and published on GitHub Pages, without using a single Git command.
+
+## What is MkDocs
+
+MkDocs is a free, open source static site generator built specifically for documentation. It converts your Markdown files into a clean, structured documentation website. Unlike Jekyll, which is a general-purpose site generator, MkDocs is purpose-built for technical documentation — it generates a sidebar navigation automatically from your folder structure, requires minimal configuration, and produces a fast, readable documentation site out of the box.
+
+MkDocs also supports themes. The most popular theme is Material for MkDocs, which gives your site a modern, professional appearance used by companies like Kubernetes, FastAPI, and Google.
+
+## Step 1: Install Python
+
+MkDocs is built on Python. You must install Python before you can install MkDocs.
+
+**Install Python on Windows**:
+
+1. Open your browser and go to [https://www.python.org/downloads](https://www.python.org/downloads).
+1. Click the **Download Python** button. The site detects your operating system automatically and suggests the correct version.
+1. Open the downloaded installer file (named something like `python-3.12.x-amd64.exe`).
+1. On the first screen of the installer, select the checkbox labelled **Add Python to PATH**.
+
+    **Important**: You must select Add Python to PATH before clicking Install. If you skip this step, Python will not be recognized in the VS Code terminal and you will need to reinstall it.
+
+
+1. Click **Install Now** and wait for the installation to finish.
+1. Click **Close** when the installer completes.
+
+**Verify the Python installation**
+
+1. Open VS Code.
+1. Press Ctrl+` to open the integrated terminal.
+1. Type the following command and press **Enter**:
+    ``` cmd
+    python --version
+    ```
+
+1. You should see a version number such as `Python 3.12.2`. This confirms Python is installed correctly.
