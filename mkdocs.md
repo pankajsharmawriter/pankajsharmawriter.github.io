@@ -75,3 +75,34 @@ pip install mkdocs-material
 1. Click **Open in Visual Studio Code**.
 
 Your existing project files — including your Jekyll _config.yml and Markdown articles — appear in the VS Code Explorer panel. Do not modify any of these files.
+
+## Step 5: Create a new MkDocs project inside your repository
+
+You create the MkDocs project as a subfolder inside your existing repository. This keeps it completely separate from your Jekyll configuration.
+
+1. In the VS Code integrated terminal, confirm you are at the root of your project. You should see a path like:
+    ``` cmd
+    C:\Users\YourName\Documents\GitHub\your-repository>
+    ```
+
+1. Type the following command and press **Enter**:
+
+    ``` cmd
+    mkdocs new my-mkdocs-site
+    ```
+
+    Replace `my-mkdocs-site` with any folder name you prefer. Use this same name in every step that follows.
+
+1. MkDocs creates a new folder named `my-mkdocs-site/` inside your repository with the following structure:
+
+    ``` yaml
+    my-mkdocs-site/
+   ├── docs/
+   │   └── index.md
+   └── mkdocs.yml
+   ```
+
+    - **docs/** — the folder where all your Markdown articles go.
+    - **index.md** — the default home page of your site.
+    - **mkdocs.yml** — the configuration file for your MkDocs site.
+
