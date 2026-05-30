@@ -109,3 +109,62 @@ List issues that exist in this release but have not yet been fixed. Include a wo
 **Example**:
 
 > Dashboard charts not rendering in Safari 16: Charts on the Analytics dashboard may not load correctly in Safari 16. Use Chrome or Firefox as a workaround while we investigate the issue.
+
+## Release notes template
+
+Use the following template for any software release. Remove sections that are not applicable.
+
+``` yaml
+
+# Release notes — [Product name]
+
+## Version [X.X.X] | Released: [DD Month YYYY]
+
+### Overview
+
+[Two to three sentences summarising the key changes and their value to users.]
+
+---
+
+### New features
+
+**[Feature name]**
+[What can the user do now? Where can they find it?]
+
+---
+
+### Enhancements and improvements
+
+**[Enhancement name]**
+[What was improved and what benefit does it provide?]
+
+---
+
+### Bug fixes
+
+**[Brief description of the issue] ([Issue ID if applicable])**
+[What was the problem? What was fixed?]
+
+---
+
+### Deprecated features
+
+**[Feature name]**
+[What is being deprecated? When will it be removed? What should the user use instead?]
+
+---
+
+### Known issues
+
+**[Brief description of the issue]**
+[What is the problem? What is the workaround, if any?]
+
+---
+
+### Reference links
+
+- [Full documentation](#)
+- [API reference](#)
+- [Changelog](#)
+- [Contact support](#)
+```
