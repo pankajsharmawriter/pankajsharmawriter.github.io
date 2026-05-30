@@ -64,4 +64,48 @@ State the version number and release date at the top of the document. Follow sem
 
 **Example**:
 
-> Version 3.2.0 | Released: 15 June 2025
+> Version 3.2.0  Released: 30 MAY 2026
+
+
+### Overview
+Write two to three sentences summarising the release. Focus on the most significant change and its value to the user.
+
+**Example**:
+
+> Version 3.2.0 introduces multi-factor authentication support and improves API response times by 40%. This release also resolves three critical bugs reported in the previous version.
+
+### New features
+List each new feature separately. Use the feature name as a bold label, followed by a brief description of what it does and where to find it.
+
+**Example**:
+
+> Multi-factor authentication (MFA): Users can now enable MFA from the Security Settings page. MFA supports authenticator apps (TOTP) and SMS verification. Once enabled, users are prompted for a second factor at every login.
+
+
+### Enhancements and improvements
+List improvements to existing features. Describe what changed and what benefit it provides.
+
+**Example**:
+
+> Faster API response times: API response times for the /users and /orders endpoints have improved by 40% due to database query optimisation.
+
+### Bug fixes
+List resolved issues with a brief description of the problem and the fix. Include the issue ID if you use a tracking system like JIRA.
+
+**Example**:
+
+> Login page timeout error (BUG-4821): Fixed an issue where users were logged out unexpectedly after 5 minutes of inactivity, even when the "Remember me" option was selected.
+
+### Deprecated features
+List features that are still functional in this release but will be removed in a future release. Give users enough notice to migrate.
+
+**Example**:
+
+> Legacy CSV export endpoint: The /export/csv/v1 endpoint is deprecated and will be removed in version 4.0. Use the new /export/v2 endpoint instead. See the migration guide for instructions.
+
+### Known issues
+List issues that exist in this release but have not yet been fixed. Include a workaround if one is available.
+
+**Example**:
+
+> Dashboard charts not rendering in Safari 16: Charts on the Analytics dashboard may not load correctly in Safari 16. Use Chrome or Firefox as a workaround while we investigate the issue.
