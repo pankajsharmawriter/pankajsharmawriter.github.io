@@ -44,3 +44,24 @@ Patch releases (for example, v2.1.0 to v2.1.1) fix bugs or address security vuln
 
 ### Hotfix release notes
 Hotfixes are emergency patches released outside the normal release cycle. These are brief, focused on the specific critical issue resolved.
+
+## Key sections in release notes
+
+- **Version number and release date** — Identifies the release clearly.
+- **Overview** — A brief summary of what this release includes.
+- **New features** — Describes new capabilities added in this release.
+- **Enhancements and improvements** — Lists existing features that have been improved.
+- **Bug fixes** — Documents issues that have been resolved.
+- **Deprecated features** — Lists features being phased out.
+- **Known issues** — Discloses unresolved issues users may encounter.
+- **Reference links** — Points to related documentation or support.
+
+## How to write each section
+
+### Version number and release date
+
+State the version number and release date at the top of the document. Follow semantic versioning (MAJOR.MINOR.PATCH) if your product uses it.
+
+**Example**:
+
+> Version 3.2.0 | Released: 15 June 2025
