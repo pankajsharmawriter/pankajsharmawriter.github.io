@@ -54,3 +54,43 @@ You only need to run this once. To verify your configuration, run:
 git config --list
 ```
 This displays all your current Git settings, including your name and email.
+
+## Clone a repository
+
+Cloning creates a local copy of a remote GitHub repository on your machine. This is the first step when you are assigned a documentation task that lives in an existing repository.
+
+``` cmd
+git clone <repository-url>
+```
+
+**Example**:
+``` cmd
+git clone https://github.com/pankajsharmawriter/pankajsharmawriter.github.io.git
+```
+
+After running this command, Git downloads the repository into a new folder in your current directory. Navigate into it with:
+
+``` cmd
+cd pankajsharmawriter.github.io
+``` 
+
+You are now inside the repository and ready to work.
+
+## Check the status of your working directory
+
+The `git status` command is the most frequently used command in a documentation workflow. It shows you which files have been modified, which are staged for commit, and which are untracked.
+
+``` cmd
+git status
+```
+**Example**:
+
+``` cmd
+On branch feature/update-api-guide
+Changes not staged for commit:
+  modified:   docs/api-guide.md
+
+Untracked files:
+  docs/new-article.md
+  ```
+Run `git status` before committing, after making changes, and whenever you are unsure about the state of your working directory. It is a safe, read-only command — it never changes anything.
