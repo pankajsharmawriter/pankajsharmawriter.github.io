@@ -40,5 +40,6 @@ For any query, contact me at **pankajsharmawriter@gmail.com**.
 -  [How to set up Docusaurus in a Docs-as-Code environment](./docusaurus)
 -  [How to set up MkDocs in a Docs-as-Code environment](./mkdocs)
 -  [How to write release notes](./releasenotes)
+-  [Git commands commonly used by technical writers in VS Code](./gitlearn)
   
   
