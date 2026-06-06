@@ -119,7 +119,7 @@ git branch -a
   remotes/origin/feature/release-notes-v3
 
 ```
-Create and switch to a new branch
+## Create and switch to a new branch
 
 In a docs-as-code workflow, you always work on a separate feature branch — never directly on the main branch. This isolates your changes from the stable, published content until they are reviewed and approved.
 To create a new branch and switch to it in a single command:
@@ -145,3 +145,27 @@ git checkout <branch-name>
 ``` cmd
 git checkout feature/update-api-guide
 ```
+## Pull the latest changes
+
+Before starting work each day, pull the latest changes from the remote repository. This ensures your local branch is in sync with any updates that teammates have pushed since your last session.
+
+``` cmd
+git pull origin main
+```
+Running `git pull` regularly reduces the chance of merge conflicts by keeping your local copy up to date with the remote repository.
+
+## Stage files for a commit
+
+After editing your Markdown files, you need to stage the changes before committing them. Staging lets you choose exactly which changes to include in a commit, rather than committing everything at once.
+To stage a specific file:
+
+``` cmd
+git add docs/api-guide.md
+```
+
+To stage all modified files in the repository at once:
+
+``` cmd
+git add .
+```
+Run `git status` after staging to confirm which files are queued for the commit.
