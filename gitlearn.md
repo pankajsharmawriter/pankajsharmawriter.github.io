@@ -245,5 +245,32 @@ git reset HEAD docs/new-article.md
 ```
 This removes the file from the staging area but keeps your local edits intact.
 
+## Quick reference table
+
+The following table summarises the Git commands covered in this article and when to use them.
+
+| Command | Purpose |
+|---------|---------|
+| git --version | Verify Git is installed |
+| git config --global user.name | Set your Git username |
+| git config --global user.email | Set your Git email |
+| git clone <url> | Clone a remote repository locally |
+| git status | Check the state of your working directory |
+| git branch | List local branches |
+| git branch -a | List all local and remote branches |
+| git checkout -b <name> | Create and switch to a new branch |
+| git checkout <name> | Switch to an existing branch |
+| git pull origin <branch> | Pull latest changes from remote |
+| git add <file> | Stage a specific file |
+| git add . | Stage all modified files |
+| git commit -m "message" | Commit staged changes with a message |
+| git push origin <branch> | Push committed changes to remote |
+| git log | View full commit history |
+| git log --oneline | View compact commit history |
+| git diff | Review unstaged changes |
+| git diff <file> | Review unstaged changes in a specific file |
+| git checkout -- <file> | Discard uncommitted changes in a file |
+| git reset HEAD <file> | Unstage a file without discarding edits |
+
 
 
