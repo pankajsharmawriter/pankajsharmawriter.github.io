@@ -94,3 +94,54 @@ Untracked files:
   docs/new-article.md
   ```
 Run `git status` before committing, after making changes, and whenever you are unsure about the state of your working directory. It is a safe, read-only command — it never changes anything.
+
+## View existing branches
+
+Before creating a new branch or switching to one, check which branches already exist in the repository.
+
+``` cmd
+git branch
+```
+
+This lists all local branches. The branch you are currently on is marked with an asterisk (*).
+
+To see both local and remote branches, run:
+
+``` cmd
+git branch -a
+```
+
+**Example**:
+
+``` cmd
+* main
+  remotes/origin/feature/update-api-guide
+  remotes/origin/feature/release-notes-v3
+
+```
+Create and switch to a new branch
+
+In a docs-as-code workflow, you always work on a separate feature branch — never directly on the main branch. This isolates your changes from the stable, published content until they are reviewed and approved.
+To create a new branch and switch to it in a single command:
+
+``` cmd
+git checkout -b <branch-name>
+```
+**Example**:
+
+``` cmd
+git checkout -b feature/update-onboarding-guide
+```
+
+Use a descriptive branch name that reflects the documentation task. This makes it easier for your manager or reviewer to identify your branch when reviewing pull requests.
+To switch to an existing branch without creating a new one:
+
+``` cmd
+git checkout <branch-name>
+```
+
+**Example**:
+
+``` cmd
+git checkout feature/update-api-guide
+```
