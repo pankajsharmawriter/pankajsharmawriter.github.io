@@ -220,3 +220,30 @@ Date:   Fri Jun 05 2026
     Updated API guide — added authentication section
 ```
 
+## Check differences before committing
+
+Before staging and committing, use `git diff` to review exactly what changed in your files since the last commit. This is useful for catching unintended edits before they enter the commit history.
+
+``` cmd
+git diff
+```
+
+This shows line-by-line differences for all unstaged changes. Lines marked with + were added and lines marked with - were removed.
+
+## Undo changes
+
+There are situations where you want to discard edits and restore a file to its last committed state. Use the following command carefully — it permanently discards uncommitted changes in the specified file.
+
+``` cmd
+git checkout -- docs/api-guide.md
+```
+
+To unstage a file that you staged by mistake (without discarding your edits):
+
+``` cmd
+git reset HEAD docs/new-article.md
+```
+This removes the file from the staging area but keeps your local edits intact.
+
+
+
