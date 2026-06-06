@@ -169,3 +169,21 @@ To stage all modified files in the repository at once:
 git add .
 ```
 Run `git status` after staging to confirm which files are queued for the commit.
+
+## Commit your changes
+
+A commit records a snapshot of your staged changes to the local repository. Every commit requires a message that describes what was changed and why.
+
+``` cmd
+git commit -m "Updated API guide — added authentication section and corrected parameter descriptions"
+```
+
+A good commit message is specific, concise, and written in the past tense or imperative form. Avoid vague messages like "Updated docs" or "Fixed stuff" — these are unhelpful when reviewing history.
+
+## Push changes to the remote repository
+
+A commit only saves changes locally. To make them available on GitHub for review and pull request creation, push the branch to the remote repository.
+
+``` cmd
+git push origin feature/update-onboarding-guide
+```
