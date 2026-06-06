@@ -187,3 +187,36 @@ A commit only saves changes locally. To make them available on GitHub for review
 ``` cmd
 git push origin feature/update-onboarding-guide
 ```
+After pushing, open GitHub in your browser to create a pull request from your branch into the main branch.
+
+If you are pushing a new branch for the first time and Git asks you to set the upstream, run:
+
+``` cmd
+git push --set-upstream origin <branch-name>
+```
+
+Git will remember the upstream branch for all future pushes on that branch.
+
+## View commit history
+
+The `git log` command displays the commit history of the current branch. This is useful for reviewing recent changes, identifying who made a specific edit, or finding a commit you want to revert.
+
+``` cmd
+git log
+```
+
+**Example log**:
+``` cmd
+commit 3f2a1b9 (HEAD -> feature/update-onboarding-guide)
+Author: Pankaj Sharma <pankajsharmawriter@gmail.com>
+Date:   Sat Jun 06 2026
+
+    Added prerequisites section to the quickstart guide for new users
+
+commit 9c4d5e7 (origin/main)
+Author: Pankaj Sharma <pankajsharmawriter@gmail.com>
+Date:   Fri Jun 05 2026
+
+    Updated API guide — added authentication section
+```
+
