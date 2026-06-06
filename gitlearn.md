@@ -272,5 +272,11 @@ The following table summarises the Git commands covered in this article and when
 | git checkout -- <file> | Discard uncommitted changes in a file |
 | git reset HEAD <file> | Unstage a file without discarding edits |
 
+## Conclusion
+Git commands give technical writers precise, terminal-level control over their documentation workflow in ways that GUI tools like GitHub Desktop cannot always match. The commands covered in this article — from cloning and branching to staging, committing, pushing, and reviewing history — represent the core of what you need to work confidently in any docs-as-code environment. Starting with git status and building up from there, you can integrate these commands into your daily VS Code workflow without disrupting the writing process. Mastering them not only improves your productivity but also strengthens your credibility as a technical writer working alongside engineering teams.
 
+For any query, contact me at **pankajsharmawriter@gmail.com**.
 
+## Reference
+
+-  [About me](./)
