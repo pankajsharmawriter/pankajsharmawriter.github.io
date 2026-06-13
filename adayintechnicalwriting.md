@@ -76,3 +76,86 @@ Around 12:30 PM, I shift to coordination work — the part of the job that does 
 - Following up on reviews that are past due
 - Scheduling a 20-minute call with a developer to walk through an undocumented feature
 - Asking targeted questions over Slack rather than waiting for a formal meeting
+
+The key skill here is asking precise questions. Instead of sending a draft and writing "Please review," I send a draft with a short list:
+
+> "Hi Rahul, I have three specific questions before I can finalize this section: (1) What is the maximum value for the timeout parameter? (2) Does the API return a 404 or a 400 when the resource ID is invalid? (3) Is the webhook payload the same for both create and update events?"
+
+Targeted questions get faster answers. Vague review requests get ignored.
+
+## Afternoon: JIRA board review and sprint health check
+
+After lunch, I spend 15–20 minutes reviewing the sprint board. This is not micromanagement — it is situational awareness.
+
+### What I look for on the sprint board:
+
+- Features that just moved from In Progress to Done — these need immediate documentation attention
+- Features that are blocked on the engineering side — documentation can wait, but I flag them so I am not surprised at sprint close
+- New tickets added to the sprint — any documentation dependencies need to be assessed and ticketed
+- My own documentation tickets — are they in the right status? Have I missed updating a ticket from In Progress to In Review?
+
+A stale JIRA board is a credibility problem. If your ticket says To Do for five days while you have been actively writing, your contribution is invisible. Update statuses in real time.
+
+## Afternoon: writing, editing, and publishing
+
+The second writing block of the day is typically less about drafting and more about refining. This is when I:
+
+- Incorporate SME review comments received in the morning
+- Edit for clarity, consistency, and adherence to the Microsoft Writing Style Guide
+- Run a peer review with another writer if one is available
+- Check all procedures against the live staging environment one final time
+- Publish completed documentation — commit to GitHub, push to GitHub Pages, or publish in Confluence
+
+### Publishing is not a one-click action. Before publishing, I verify:
+
+- All cross-references and internal links resolve correctly
+- Screenshots and code samples match the current product version
+- The document follows the team's established structure and heading conventions
+- The release note (if applicable) accurately reflects what shipped
+
+A published document with a broken link or an outdated screenshot does more damage than a delayed document. Accuracy is non-negotiable.
+
+## Sprint ceremonies: how they interrupt and shape the day
+
+Beyond the daily standup, two sprint ceremonies directly affect a technical writer's day:
+
+### Sprint planning (every two weeks, start of sprint)
+
+This is where I negotiate documentation scope. For every feature the team pulls into the sprint, I assess the documentation effort and create corresponding JIRA tickets. If a feature requires a new API reference, a user guide update, and a release note, that is three separate tickets, each estimated in story points. I add them to the sprint board during planning — if I miss this window, documentation becomes unplanned work that competes with everything else.
+
+### Sprint review (every two weeks, end of sprint)
+
+This is where completed work is demonstrated to stakeholders. I present documentation deliverables the same way developers demo features — with a live walkthrough. I share the published URL, walk through the structure, and invite feedback. This visibility is important: it reinforces that documentation is a sprint deliverable, not an afterthought.
+
+## End of day: JIRA update and next-day prep
+
+The last 15 minutes of the day are administrative but important.
+
+### End-of-day routine:
+
+- Update all active JIRA tickets with the current status and any relevant comments
+- Log work completed (some teams track this for velocity reporting)
+- Note what is pending for tomorrow — specific questions to ask, sections to write, reviews to follow up on
+- Check if any features are scheduled to ship the next morning that will require immediate documentation updates
+
+This closing routine sounds minor, but it is what keeps the sprint board accurate and your work visible to the team.
+
+## What makes a technical writer effective in an Agile environment
+
+After years of working in Agile teams, the qualities that matter most are not just writing ability. They are:
+
+- **Adaptability** — Features change mid-sprint. A good Agile writer revises without frustration.
+- **Proactive communication** — Waiting to be told what to document is the fastest way to fall behind.
+- **Prioritization** — Not every doc task can be finished in a sprint. Knowing what to ship and what to defer is a skill.
+- **Tooling fluency** — JIRA, Confluence, GitHub, Postman, VS Code — comfort with these tools reduces friction and increases speed.
+- **Engineering empathy** — Understanding how developers think, what they need from documentation, and how to ask questions they can answer quickly.
+  
+## Conclusion
+
+A day in the life of a technical writer in an Agile environment is structured, fast-moving, and collaborative. The standup anchors the morning, writing blocks protect deep-focus time, and SME coordination and JIRA hygiene fill the gaps. The sprint rhythm — planning, executing, reviewing, retrospecting — gives documentation work a cadence that a waterfall environment rarely provides. What makes this model work is integration: when a technical writer is a genuine member of the development team, not a peripheral reviewer who receives a feature spec on day nine of a ten-day sprint, documentation ships with the product, every sprint. That is the goal, and this daily rhythm is how it is achieved.
+
+For any query, contact me at **pankajsharmawriter@gmail.com**.
+
+## Reference
+
+-  [About me](./)
