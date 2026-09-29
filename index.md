@@ -16,7 +16,7 @@ Proficient in tools like VS Code, GitHub Desktop, Oxygen XML Author (DITA), Adob
 
 Key contributions include migrating unstructured documentation to a structured format, improving content accessibility, and contributing to a 20% increase in product revenue. I have also supported the transition of on-premises software applications to Microsoft Azure, ensuring a seamless cloud migration. Additionally, I played a key role in building Visual Studio integration with GitHub, which streamlined the publishing of HTML output and enhanced team collaboration and efficiency. These initiatives have strengthened product usability and significantly improved documentation effectiveness.
 
-I hold a Bachelor's degree in Information Technology from SKIT and am currently pursuing a Master's degree in IT from Symbiosis University. I previously worked at Microsoft as a Technical Writer, where I used VS Code and GitHub, and later at Movate, where I edited and reviewed Markdown files in Cider and Piper for Google products.
+I hold a Bachelor's degree in Information Technology from SKIT and am currently pursuing a Master's degree in IT from Symbiosis University. I previously worked at Microsoft as a Technical Writer, where I used VS Code and GitHub, and later at Movate(client Google), where I edited and reviewed Markdown files in Cider and Piper for Google products.
 
 I am also an author of [Girl Who Murdered Arranged Marriage](https://www.amazon.in/Girl-Who-Murdered-Arranged-Marriage/dp/9374246465).
 
