@@ -66,3 +66,16 @@ To verify that TortoiseSVN is installed, follow these steps:
 
 ## Top 10 uses of TortoiseSVN for Technical Writers
 The following sections follow the order of a typical writing day: set up your files, see what's changed, edit, review, and submit.
+
+### 1. Check out a repository
+
+Check out means to create a working copy of a repository on your computer. You do this once for each documentation set.
+To check out a repository, follow these steps:
+1. In File Explorer, create an empty folder, for example `C:\Docs\product-guide`.
+1. Right-click the folder, and then select **Show more options > SVN Checkout**.
+1. In **URL of repository**, enter the repository URL that your team provided, for example `https://svn.example.com/repos/docs/trunk`.
+1. Confirm that **Checkout directory** shows the folder you created.
+1. Leave **Revision** set to **HEAD revision** to get the latest version.
+1. Select **OK**. If prompted, enter your user name and password.
+
+When the checkout finishes, your folder contains the documentation files and a hidden `.svn` folder. Don't edit or delete the `.svn` folder. Subversion uses it to track your changes.
