@@ -102,3 +102,52 @@ To update your working copy, follow these steps:
 1. Select **OK**.
 
 Updating first reduces the chance of conflicts, because you start from the same version as everyone else. Developers often change code and related documentation, so an update shows you what changed in the product since your last session.
+
+## 4. Add files and folders
+New files aren't tracked until you add them. **Add** puts a file or folder under version control.
+
+To add a file to SVN, follow these steps:
+1. Create or copy the file into your working copy, for example `C:\Docs\product-guide\install.md`. The file shows a blue question mark overlay icon.
+1. Right-click the file.
+1. Select **Show more options > TortoiseSVN > Add**.
+1. In the **Add** dialog, confirm that the file is selected, and then select **OK**.
+1. Confirm that the overlay icon changes to a blue plus sign.
+
+At this point, the file exists only on your computer. To send it to the repository, you must commit it (see the next section).
+
+To add several files at once, right-click the parent folder and select **Add**. Then clear the check boxes for files you don't want to track.
+
+## 5. Commit your changes
+Commit sends your local changes to the repository and creates a new revision.
+To commit your changes, follow these steps:
+1. Update your working copy first.
+1. Right-click the working copy folder, and then select **Show more options > SVN Commit**.
+1. In the **Message** box, describe what you changed and why.
+1. In the file list, make sure only the files you intend to commit are selected. Added files must be selected to be included.
+1. Select **OK**.
+1. If prompted, enter your credentials. When the commit finishes, TortoiseSVN shows the new revision number.
+
+Write clear commit messages. A good message helps other writers, and your future self, understand the change without opening the file.
+
+## 6. Compare versions with Diff
+*Diff* shows the differences between two versions of a file, line by line. TortoiseSVN opens TortoiseMerge, which highlights added, removed, and changed lines.
+
+To see what you changed before you commit, follow these steps:
+1. Right-click the changed file.
+1. Select **Show more options > TortoiseSVN > Diff**.
+1. In TortoiseMerge, review the highlighted differences. The left pane shows the repository version. The right pane shows your version.
+
+To compare two earlier revisions, open the revision log (see the next section), select two revisions, right-click, and then select Compare revisions.
+
+## 7. View the revision log
+The `revision log` lists every commit to a file or folder, including the revision number, author, date, and commit message.
+To view the revision log, follow these steps:
+1. Right-click a file or folder.
+1. Select **Show more options > TortoiseSVN > Show log**.
+1. In the top pane, select a revision to see its message and changed files in the lower panes.
+1. To search, use the filter box at the top of the dialog. You can filter by message, author, or file path.
+1. To see what changed in a revision, double-click the file name in the lower pane.
+
+> You can also use the log to get an earlier version of a file. Right-click the revision, and then select **Save revision** to or **Revert to this revision**. 
+
+## 8. Resolve conflicts
