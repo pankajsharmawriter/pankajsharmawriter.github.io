@@ -35,7 +35,7 @@ As a technical writer, you can use TortoiseSVN to:
 
 ## Download TortoiseSVN
 To download TortoiseSVN, follow these steps:
-1. Go to the official TortoiseSVN website:[https://tortoisesvn.net/downloads.html.](https://tortoisesvn.net/downloads.html).
+1. Go to the official TortoiseSVN website:[https://tortoisesvn.net/downloads.html](https://tortoisesvn.net/downloads.html).
 1. Under Download, find the latest stable release.
 1. Select the installer for your system. For Windows 11, select the 64-bit installer. The file name looks like `TortoiseSVN-1.14.x.xxxxx-x64-svn-1.14.x.msi`.
 1. (Optional) Select a language pack if you want the interface in a language other than English. You install the language pack after you install TortoiseSVN.
@@ -46,3 +46,23 @@ To download TortoiseSVN, follow these steps:
 - Windows 11 (64-bit). TortoiseSVN also runs on Windows 10 and earlier supported versions.
 - Administrator rights on your computer to run the installer.
 - Network access to your team's SVN repository.
+
+## Install TortoiseSVN on Windows 11
+To install TortoiseSVN, follow these steps:
+1. Open the folder where you saved the `.msi` file, and then double-click it.
+1. On the Welcome page, select **Next**.
+1. Read the license agreement, select **I accept the terms in the License Agreement**, and then select **Next**.
+1. On the **Custom Setup** page, review the features. To use svn commands in a terminal, select **command line client tools**, and then select **Will be installed on local hard drive**. This feature isn't selected by default.
+1. Select **Next**, and then select **Install**.
+1. If the **User Account Control** dialog appears, select **Yes**.
+1. When the installation finishes, select **Finish**.
+1. Restart your computer if the installer prompts you to. Overlay icons and context menu commands don't appear until you restart.
+
+### Verify the installation
+To verify that TortoiseSVN is installed, follow these steps:
+1. Open File Explorer, and then right-click any empty space in a folder.
+1. In Windows 11, select **Show more options**. Depending on your TortoiseSVN version, you might also see a TortoiseSVN entry directly in the shortened menu.
+1. Confirm that the classic context menu includes SVN Checkout and TortoiseSVN.
+
+## Top 10 uses of TortoiseSVN for Technical Writers
+The following sections follow the order of a typical writing day: set up your files, see what's changed, edit, review, and submit.
