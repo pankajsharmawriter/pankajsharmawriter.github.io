@@ -166,3 +166,39 @@ To resolve a conflict, follow these steps:
 > **Tip** To reduce conflicts, update often, commit small changes, and agree with your team on who edits which topic.
 
 ## 9. Revert changes
+*Revert* discards your local changes and restores the file to the last version you got from the repository.
+
+To revert a file, follow these steps:
+1. Right-click the file.
+1. Select **Show more options > TortoiseSVN > Revert**.
+1. In the **Revert** dialog, confirm that the correct files are selected, and then select **OK**.
+
+> **Warning** Revert permanently discards your uncommitted changes. You can't undo this action.
+Revert affects only your working copy. To undo a change that's already committed, open the revision log, right-click the revision, and then select **Revert changes from this revision**. Then commit the result as a new revision.
+
+## 10. Rename, move, and delete files
+If you rename, move, or delete files in File Explorer, Subversion doesn't know that the files are related. You lose the file history. Use the TortoiseSVN commands instead, so history stays connected.
+
+**To rename a file**, follow these steps:
+1. Right-click the file.
+1. Select **Show more options > TortoiseSVN > Rename**.
+1. Enter the new name, and then select **OK**.
+
+**To move a file**, follow these steps:
+1. Right-click the file, and then drag it to the destination folder.
+1. Release the mouse button, and then select **SVN Move versioned item(s) here**.
+
+**To delete a file**, follow these steps:
+1. Right-click the file.
+1. Select **Show more options > TortoiseSVN > Delete**.
+
+After any of these actions, commit the change. Until you commit, the change exists only in your working copy.
+
+## Conclusion
+This article introduced TortoiseSVN, from downloading and installing it on Windows 11 to using the 10 features that technical writers rely on every day. By following these steps, new technical writers can understand TortoiseSVN from the basics to more advanced tasks, such as comparing versions and resolving conflicts. With this knowledge, you can check out, edit, review, and commit your documentation and work independently in SVN. As you practice, you’ll spend less time managing files and more time creating clear, accurate content.
+
+For any query, contact me at **pankajsharmawriter@gmail.com**.
+
+## Reference
+
+-  [About me](./)
