@@ -140,7 +140,7 @@ To see what you changed before you commit, follow these steps:
 To compare two earlier revisions, open the revision log (see the next section), select two revisions, right-click, and then select Compare revisions.
 
 ## 7. View the revision log
-The `revision log` lists every commit to a file or folder, including the revision number, author, date, and commit message.
+The *revision log* lists every commit to a file or folder, including the revision number, author, date, and commit message.
 To view the revision log, follow these steps:
 1. Right-click a file or folder.
 1. Select **Show more options > TortoiseSVN > Show log**.
@@ -151,3 +151,18 @@ To view the revision log, follow these steps:
 > You can also use the log to get an earlier version of a file. Right-click the revision, and then select **Save revision** to or **Revert to this revision**. 
 
 ## 8. Resolve conflicts
+A conflict occurs when you and another person change the same lines of a file, and Subversion can't merge the changes automatically.
+To resolve a conflict, follow these steps:
+1. Right-click the conflicted file.
+1. Select **Show more options > TortoiseSVN > Edit conflicts**.
+1. In TortoiseMerge, review the three panes:
+    - **Theirs** shows the version from the repository.
+    - **Mine** shows your version.
+    - **Merged** shows the result.
+1. Right-click each conflicting block, and then choose to use the text from theirs, use the text from mine, or use both. You can also edit the merged text directly.
+1. Save the file, and then close TortoiseMerge.
+1. When prompted, select **Mark as resolved**.
+1. Commit the file.
+> **Tip** To reduce conflicts, update often, commit small changes, and agree with your team on who edits which topic.
+
+## 9. Revert changes
