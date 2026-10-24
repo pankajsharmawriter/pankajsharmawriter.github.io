@@ -42,5 +42,6 @@ For any query, contact me at **pankajsharmawriter@gmail.com**.
 -  [How to write release notes](./releasenotes)
 -  [Git commands commonly used by technical writers in VS Code](./gitlearn)
 -  [A day in the life of a technical writer in an Agile environment](./adayintechnicalwriting)
+-  [Top 10 uses of Tortoise SVN](./tortoisesvn.md)
   
   
