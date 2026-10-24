@@ -79,3 +79,26 @@ To check out a repository, follow these steps:
 1. Select **OK**. If prompted, enter your user name and password.
 
 When the checkout finishes, your folder contains the documentation files and a hidden `.svn` folder. Don't edit or delete the `.svn` folder. Subversion uses it to track your changes.
+
+## 2. Read overlay icons
+Overlay icons are small symbols that appear on top of files and folders. They show you the status of each item at a glance.
+
+| Icon | Meaning |
+| --- | --- |
+| Green check mark | The file is up to date. It matches the repository. |
+| Red exclamation mark | You changed the file, or the folder contains changed files. |
+| Yellow triangle | A conflict exists. You must resolve it before you commit. |
+| Blue plus sign | You added the file, but you haven't committed it yet. |
+| Blue question mark | The file isn't under version control. |
+
+> If the icons don't appear, restart your computer.
+
+## 3. Update your working copy
+Update gets the latest changes from the repository and merges them into your working copy.
+To update your working copy, follow these steps:
+1. Right-click your working copy folder.
+1. Select **Show more options > SVN Update**.
+1. Review the list of changed files in the dialog.
+1. Select **OK**.
+
+Updating first reduces the chance of conflicts, because you start from the same version as everyone else. Developers often change code and related documentation, so an update shows you what changed in the product since your last session.
