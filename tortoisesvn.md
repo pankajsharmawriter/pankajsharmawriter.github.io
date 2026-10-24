@@ -14,3 +14,21 @@ Version control tracks every change you make to a file. It records who made the 
 Subversion stores your files in a central location called a repository. You don't edit files in the repository directly. Instead, you work in a working copy, which is a local copy of the repository on your computer. When you finish your edits, you send them back to the repository.
 
 TortoiseSVN doesn't replace Subversion. It provides a graphical interface for it.
+
+## Why technical writers use TortoiseSVN
+As a technical writer, you can use TortoiseSVN to:
+
+- Keep a history of every edit to your documentation.
+- Work on the same documentation set as other writers, engineers, and reviewers without overwriting each other's work.
+- Review exactly what changed between two versions of a topic.
+- Recover a file you deleted or changed by mistake.
+
+## Terms used in this article
+
+| Term | Definition |
+| --- | --- |
+| Repository | The central location where Subversion stores all files and their history. |
+| Working copy | The local copy of the repository on your computer. |
+| Revision | A numbered snapshot of the repository, created each time someone commits changes. |
+| Commit | The action of sending your local changes to the repository. |
+| Update | The action of getting the latest changes from the repository. |
