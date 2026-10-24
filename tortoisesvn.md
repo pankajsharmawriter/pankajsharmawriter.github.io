@@ -32,3 +32,17 @@ As a technical writer, you can use TortoiseSVN to:
 | Revision | A numbered snapshot of the repository, created each time someone commits changes. |
 | Commit | The action of sending your local changes to the repository. |
 | Update | The action of getting the latest changes from the repository. |
+
+## Download TortoiseSVN
+To download TortoiseSVN, follow these steps:
+1. Go to the official TortoiseSVN website:[https://tortoisesvn.net/downloads.html.](https://tortoisesvn.net/downloads.html).
+1. Under Download, find the latest stable release.
+1. Select the installer for your system. For Windows 11, select the 64-bit installer. The file name looks like `TortoiseSVN-1.14.x.xxxxx-x64-svn-1.14.x.msi`.
+1. (Optional) Select a language pack if you want the interface in a language other than English. You install the language pack after you install TortoiseSVN.
+
+> **Important** Download TortoiseSVN only from the official website. Installers from third-party sites might be outdated or modified.
+
+### System requirements
+- Windows 11 (64-bit). TortoiseSVN also runs on Windows 10 and earlier supported versions.
+- Administrator rights on your computer to run the installer.
+- Network access to your team's SVN repository.
