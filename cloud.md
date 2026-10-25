@@ -108,3 +108,31 @@ Cloud services offer several advantages over traditional on-premises infrastruct
 - **Security**. Major providers invest heavily in physical security, encryption, and compliance certifications.
 - **Automatic updates**. The provider handles hardware maintenance and, for PaaS and SaaS, software updates.
 - **Collaboration**. Teams can access the same files and tools from any location with an internet connection.
+
+## Use cases for each cloud model
+Choose a cloud model based on your requirements for control, security, compliance, cost, and flexibility.
+
+### Use cases for public cloud
+Use a public cloud when you need speed, flexibility, and low upfront cost.
+
+- Hosting websites and web applications.
+- Developing and testing software.
+- Running workloads with unpredictable traffic, such as a ticketing website.
+- Storing backups and archives.
+- Startups and small businesses that don't want to buy hardware.
+
+### Use cases for private cloud
+Use a private cloud when you need maximum control and strict compliance.
+
+- Storing highly sensitive data, such as financial or health records.
+- Meeting strict regulatory or data residency requirements.
+- Running legacy applications that need custom hardware or configurations.
+- Large organizations that need predictable performance and full control.
+
+### Use cases for hybrid cloud
+Use a hybrid cloud when you need both control and flexibility.
+
+- Keeping sensitive data in a private environment while running other workloads in the public cloud.
+- Cloud bursting, which is moving workloads to the public cloud when demand exceeds your private capacity.
+- Migrating to the cloud in stages.
+- Using the public cloud for disaster recovery.
