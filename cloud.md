@@ -37,5 +37,25 @@ A public cloud is owned and operated by a cloud provider. The provider makes com
 
 **Examples**: Google Cloud, Microsoft Azure, Amazon Web Services (AWS).
 
+**Key characteristics**:
+- The provider owns and maintains the hardware.
+- You pay only for the resources you use.
+- Resources are available on demand, and you can scale them quickly.
 
+### Private cloud
+A private cloud is used by a single organization. It can be located in the organization's own data center, or a third-party provider can host it. The infrastructure is dedicated to one customer and isn't shared with others.
+**Examples**: A bank that runs its own virtualized environment in its on-premises data center by using VMware or OpenStack. A government agency that uses a dedicated, provider-hosted environment.
+**Key characteristics**:
+- The organization has full control over the infrastructure and security settings.
+- The organization is often responsible for buying, maintaining, and updating the hardware.
+- It costs more to set up than a public cloud.
 
+### Hybrid cloud
+
+A hybrid cloud combines a public cloud and a private cloud (or on-premises infrastructure). Data and applications can move between the two environments.
+**Examples**: A retail company that keeps customer payment data in a private cloud, and runs its online store on a public cloud during holiday sales. A hospital that stores patient records on-premises and uses a public cloud for data analytics.
+
+**Key characteristics**:
+- You can keep sensitive workloads in a private environment.
+- You can use the public cloud for extra capacity or less sensitive work.
+- It's more complex to manage than a single environment.
