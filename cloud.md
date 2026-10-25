@@ -136,3 +136,44 @@ Use a hybrid cloud when you need both control and flexibility.
 - Cloud bursting, which is moving workloads to the public cloud when demand exceeds your private capacity.
 - Migrating to the cloud in stages.
 - Using the public cloud for disaster recovery.
+
+## The consumption-based model
+The consumption-based model is a pricing model in which you pay only for the cloud resources that you use. It's also called pay-as-you-go. There's no upfront cost for hardware, and there's no long-term commitment for most services.
+
+### How it works
+Cloud providers measure your usage and charge you based on what you consume. Typical measures include:
+
+- **Compute**: the number of hours or seconds a virtual machine runs.
+- **Storage**: the number of gigabytes you store each month.
+- **Network**: the amount of data that leaves the cloud (known as egress).
+- **Requests**: the number of API calls or operations you make.
+
+For example, if you run a virtual machine for 100 hours in a month, you pay for 100 hours, not for the full month. If you stop the machine, you stop paying for compute.
+
+## Capital expenditure and operational expenditure
+
+
+The consumption-based model changes how organizations pay for technology.
+
+| Term | Definition | Example |
+| --- | --- | --- |
+| Capital expenditure (CapEx) | A one-time, upfront investment in physical assets. | Buying servers and building a data center. |
+| Operational expenditure (OpEx) | Ongoing spending on services as you use them. | Paying a monthly cloud bill. |
+
+On-premises infrastructure is mostly CapEx. Cloud services are mostly OpEx.
+
+## Benefits of the consumption-based model
+
+**No upfront cost**. You don't buy hardware before you need it.
+**Pay for what you use**. You aren't charged for idle capacity that you don't use.
+**Predictable scaling**. Costs grow in proportion to usage.
+**Flexibility**. You can start small and increase resources as your needs grow.
+
+## Conclusion
+Cloud computing is the foundation of modern software. When you understand the types of clouds, the types of cloud services, and the consumption-based model, you can write clearer, more accurate documentation for the products you support. Use this knowledge to explain cloud concepts to your readers in plain language, and to choose the right terms every time.
+
+For any query, contact me at **pankajsharmawriter@gmail.com**.
+
+## Reference
+
+-  [About me](./)
