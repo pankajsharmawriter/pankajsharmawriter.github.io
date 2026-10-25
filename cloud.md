@@ -96,3 +96,15 @@ SaaS delivers a complete application over the internet, usually through a web br
 
 **Best for**: Users who need a ready-made tool and don't want to install or maintain it.
 
+## Benefits of using cloud services
+Cloud services offer several advantages over traditional on-premises infrastructure.
+
+- **Cost savings**. You don't buy hardware up front, and you reduce the cost of maintenance, power, and space.
+- **Scalability**. You can add or remove resources within minutes as demand changes.
+- **Elasticity**. Resources can increase or decrease automatically to match your workload.
+- **Speed and agility**. You can set up a server or an application in minutes instead of weeks.
+- **Reliability**. Providers replicate data across multiple locations, so you can recover from failures and disasters.
+- **Global reach**. You can deploy applications close to your users around the world.
+- **Security**. Major providers invest heavily in physical security, encryption, and compliance certifications.
+- **Automatic updates**. The provider handles hardware maintenance and, for PaaS and SaaS, software updates.
+- **Collaboration**. Teams can access the same files and tools from any location with an internet connection.
