@@ -55,6 +55,7 @@ A private cloud is used by a single organization. It can be located in the organ
 ### Hybrid cloud
 
 A hybrid cloud combines a public cloud and a private cloud (or on-premises infrastructure). Data and applications can move between the two environments.
+
 **Examples**: A retail company that keeps customer payment data in a private cloud, and runs its online store on a public cloud during holiday sales. A hospital that stores patient records on-premises and uses a public cloud for data analytics.
 
 **Key characteristics**:
