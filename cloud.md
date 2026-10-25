@@ -164,10 +164,10 @@ On-premises infrastructure is mostly CapEx. Cloud services are mostly OpEx.
 
 ## Benefits of the consumption-based model
 
-**No upfront cost**. You don't buy hardware before you need it.
-**Pay for what you use**. You aren't charged for idle capacity that you don't use.
-**Predictable scaling**. Costs grow in proportion to usage.
-**Flexibility**. You can start small and increase resources as your needs grow.
+- **No upfront cost**. You don't buy hardware before you need it.
+- **Pay for what you use**. You aren't charged for idle capacity that you don't use.
+- **Predictable scaling**. Costs grow in proportion to usage.
+- **Flexibility**. You can start small and increase resources as your needs grow.
 
 ## Conclusion
 Cloud computing is the foundation of modern software. When you understand the types of clouds, the types of cloud services, and the consumption-based model, you can write clearer, more accurate documentation for the products you support. Use this knowledge to explain cloud concepts to your readers in plain language, and to choose the right terms every time.
