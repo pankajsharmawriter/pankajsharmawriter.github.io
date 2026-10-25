@@ -62,3 +62,37 @@ A hybrid cloud combines a public cloud and a private cloud (or on-premises infra
 - You can keep sensitive workloads in a private environment.
 - You can use the public cloud for extra capacity or less sensitive work.
 - It's more complex to manage than a single environment.
+
+## Types of cloud services
+A cloud service model describes how much of the technology stack the provider manages for you. The three main models are infrastructure as a service (IaaS), platform as a service (PaaS), and software as a service (SaaS).
+
+### Infrastructure as a service (IaaS)
+
+IaaS provides the basic building blocks of computing: virtual machines, storage, and networks. The provider manages the physical hardware. You manage everything above it, including the operating system, middleware, runtime, applications, and data.
+
+**Examples**: Google Compute Engine, Azure Virtual Machines, Amazon EC2.
+
+**Analogy**: You rent an empty building. You bring your own furniture and equipment, and you maintain the inside.
+
+**Best for**: Teams that need full control over their environment and want to avoid buying hardware.
+
+### Platform as a service (PaaS)
+
+PaaS provides a ready-to-use environment for building, testing, and deploying applications. The provider manages the infrastructure, operating system, and runtime. You manage your application code and data.
+
+**Examples**: Google App Engine, Postman.
+
+**Analogy**: You rent a furnished office. You bring only your work and your people.
+
+**Best for**: Developers who want to focus on writing code without managing servers.
+
+### Software as a service (SaaS)
+
+SaaS delivers a complete application over the internet, usually through a web browser or app. The provider manages everything: infrastructure, platform, and the software itself. You only use the application and manage your own data and settings.
+
+**Examples**: Gmail, Microsoft 365, Salesforce.
+
+**Analogy**: You stay in a hotel. Everything is provided, and you only use it.
+
+**Best for**: Users who need a ready-made tool and don't want to install or maintain it.
+
