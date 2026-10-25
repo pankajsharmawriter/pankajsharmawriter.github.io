@@ -44,7 +44,9 @@ A public cloud is owned and operated by a cloud provider. The provider makes com
 
 ### Private cloud
 A private cloud is used by a single organization. It can be located in the organization's own data center, or a third-party provider can host it. The infrastructure is dedicated to one customer and isn't shared with others.
+
 **Examples**: A bank that runs its own virtualized environment in its on-premises data center by using VMware or OpenStack. A government agency that uses a dedicated, provider-hosted environment.
+
 **Key characteristics**:
 - The organization has full control over the infrastructure and security settings.
 - The organization is often responsible for buying, maintaining, and updating the hardware.
