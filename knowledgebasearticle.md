@@ -58,3 +58,39 @@ When you add a diagram or screenshot:
 1. Don't rely on the image alone to convey information. Always explain the key points in text.
 
 ## Key takeaways
+The Key takeaways section summarizes the main outcomes and lessons. Many readers scan this section first, so make it stand alone.
+
+In this section, include:
+- **Results**. Summarize the most important outcomes of the solution.
+- **Lessons**. Share insights that readers can apply to their own scenarios.
+- **A short list**. Use three to six bullet points. Start each item with a verb or a clear noun phrase, and keep the items parallel.
+
+Don't introduce new information here. Every point should reflect something already described in the article.
+
+## Looking ahead
+The Looking ahead section describes what comes next. It shows readers that the solution is evolving and helps them plan for what's coming.
+
+In this section, include:
+- **Planned improvements**. Describe features, integrations, or expansions that are in progress or under consideration.
+- **Emerging technologies**. Mention areas the team is exploring, such as automation or AI.
+- **A closing statement**. End with one or two sentences that connect the future plans to the broader goals described earlier.
+
+Be careful when you write about future plans. Don't commit to dates, features, or outcomes unless they're confirmed and approved for publication. Use phrases such as "is exploring" or "is testing" for work that's still in progress.
+
+## Related information
+The Related information section helps readers continue learning. Link to resources that provide more depth on the products, concepts, and tasks mentioned in the article.
+
+Follow these guidelines for links:
+- Use descriptive link text that matches the title of the destination page. Don't use "click here" or "read more."
+- Use relative links for content in the same documentation set.
+- Group links by topic, and limit the list to the most useful resources.
+- Check that every link works before you publish.
+
+## Conclusion
+Knowing the structure of a knowledge base article gives technical writers who are new to the work a clear framework to follow. Instead of starting from a blank page, they know what to write in each section, from the overview to the related information. This reduces guesswork, keeps articles consistent, and makes reviews faster. Readers also benefit, because they can scan a familiar pattern, find the answer they need, and understand the content step by step. A well-structured article ultimately helps both the writer and the reader succeed.
+
+For any query, contact me at **pankajsharmawriter@gmail.com**.
+
+## Reference
+
+-  [About me](./)
