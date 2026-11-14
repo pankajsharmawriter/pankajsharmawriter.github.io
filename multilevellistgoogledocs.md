@@ -83,7 +83,6 @@ You can apply a style from the styles dropdown or with **Ctrl+Alt+1** to **Ctrl+
 3. Change the style to **Normal text** and type your content.
 4. To add the next heading, click at the end of the previous heading line (not the body text) and press **Enter**. Then use **Tab** or **Shift+Tab** to set the level.
 
-If the numbering restarts at 1 after body text, right-click the number and choose **Continue previous numbering**.
 
 ## Troubleshooting
 
@@ -97,3 +96,9 @@ If the numbering restarts at 1 after body text, right-click the number and choos
 ## Conclusion
 
 A numbered heading structure makes product documentation easier to navigate, review, and reference in feedback from engineers and product managers. This article gives new technical writers a repeatable method: use Enter to continue at the same level, Tab to go deeper, and Shift+Tab to go back up. Knowing how heading styles and numbering work as separate settings helps you avoid the most common formatting mistakes. With this approach, you can build clear, consistently numbered documents in Google Docs from your first project.
+
+For any query, contact me at **pankajsharmawriter@gmail.com**.
+
+## Reference
+
+-  [About me](./)
