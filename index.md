@@ -10,6 +10,8 @@ layout: default
 
 # About me
 
+![This is Pankaj Sharma photo](images/Pankajimage.jpeg)
+
 With 13+ years of experience as a Technical Writer, I specialise in creating comprehensive product documentation — API guides, user manuals, administration manuals, and knowledge base articles. Previously at Movate, I delivered user-friendly documentation that bridges the gap between technology and its users.
 
 Proficient in tools like VS Code, GitHub Desktop, Oxygen XML Author (DITA), Adobe FrameMaker, MadCap Flare, Postman and MS Word, I streamline workflows and ensure accurate, impactful documentation. As a frequent writer on technology, I share insights to inspire and inform professionals across the industry.
