@@ -160,3 +160,10 @@ Maintenance keeps the software working and useful after release. The team fixes 
 ## Conclusion
 
 SDLC gives you a clear map of how a product moves from an idea to a supported release. When you know what happens in each phase, you can anticipate what information you need and who can provide it. You can also plan your documentation work around real milestones instead of last-minute requests. Use this article as a reference when you join a new project, and you'll ask better questions, collaborate more effectively, and deliver more accurate documentation.
+
+
+For any query, contact me at **pankajsharmawriter@gmail.com**.
+
+## Reference
+
+-  [About me](./)
