@@ -46,4 +46,5 @@ For any query, contact me at **pankajsharmawriter@gmail.com**.
 -  [Cloud computing basics for Technical Writers](./cloud.md)
 -  [How to structure a knowledge base article](./knowledgebasearticle.md)
 -  [How to Create a Multilevel Heading List in Google Docs](./multilevellistgoogledocs.md)
+-  [How to use SDLC](./sdlc.md)
   
