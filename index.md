@@ -10,7 +10,7 @@ layout: default
 
 # About me
 
-![This is Pankaj Sharma photo](images/Pankajimage.jpeg)
+<img src="images/Pankajimage.jpeg" alt="Pankaj Sharma photo" width="120" height="150" style="width: 120px; height: 150px; object-fit: cover; border-radius: 4px; border: 1px solid #d0d7de;" />
 
 With 13+ years of experience as a Technical Writer, I specialise in creating comprehensive product documentation — API guides, user manuals, administration manuals, and knowledge base articles. Previously at Movate, I delivered user-friendly documentation that bridges the gap between technology and its users.
 
