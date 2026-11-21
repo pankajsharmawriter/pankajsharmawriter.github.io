@@ -49,4 +49,5 @@ For any query, contact me at **pankajsharmawriter@gmail.com**.
 -  [How to structure a knowledge base article](./knowledgebasearticle.md)
 -  [How to Create a Multilevel Heading List in Google Docs](./multilevellistgoogledocs.md)
 -  [How to use SDLC](./sdlc.md)
+-  [Create a technical writing AI agent on Hugging Face without coding](./technicalwritingagent.md)
   
