@@ -1,5 +1,5 @@
 ---
-title: Learn Git commands for Technical Writers
+title: A day in the life of a technical writer in an Agile environment
 layout: default
 ---
 
